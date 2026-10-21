@@ -108,12 +108,12 @@ For people facing a specific adversary, such as an abusive partner with access t
 
 ```mermaid
 flowchart TD
-  disclaimer[Disclaimer] --> startNode[How to read]
-  startNode --> concepts[Privacy security anonymity]
-  concepts --> threat[Threat models]
-  threat --> everyday[Everyday chapters 03-16]
-  everyday --> higher[Higher-risk chapters 17-23]
-  higher --> back[Disclaimer glossary and further reading]
+  disclaimer["Disclaimer"] --> startNode["How to read"]
+  startNode --> concepts["Concepts<br/>01"]
+  concepts --> threat["Threat models<br/>02"]
+  threat --> everyday["Everyday<br/>03 to 16"]
+  everyday --> higher["Higher-risk<br/>17 to 23"]
+  higher --> back["Back matter"]
 ```
 
 [↑ Back to TOC](#toc)
