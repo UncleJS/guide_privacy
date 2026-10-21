@@ -8,6 +8,8 @@ Previous: [If compromised](23-if-compromised.md) | [Home](../README.md) | Next: 
 
 **Authenticator app.** An app that generates time-based one-time codes for two-factor authentication. See [chapter 03](03-accounts.md).
 
+**BitLocker.** Windows full-disk encryption. See [chapter 10](10-computers.md).
+
 **Bridge (Tor).** An unlisted entry point to the Tor network, used where Tor is blocked or where being seen to use Tor is risky. See [chapter 21](21-anonymity-tools.md).
 
 **Compartmentalization.** Keeping identities, accounts, and devices separate so that a problem in one does not expose the others. See [chapter 18](18-compartments.md).
@@ -24,15 +26,23 @@ Previous: [If compromised](23-if-compromised.md) | [Home](../README.md) | Next: 
 
 **End-to-end encryption (E2EE).** Encryption where only the sender and recipient devices hold the keys, so the service provider cannot read the content. See [chapter 07](07-messaging.md).
 
+**Evil maid attack.** Tampering with a computer's boot process or hardware by someone who gets brief physical access, to capture your passphrase later. See [chapter 10](10-computers.md).
+
 **Exit relay.** The last Tor node, which connects to the destination and can see unencrypted traffic.
 
 **Fingerprinting.** Identifying a browser or device from its combination of settings and features, without cookies. See [chapter 05](05-browsers.md).
+
+**FileVault.** macOS full-disk encryption. See [chapter 10](10-computers.md).
+
+**Firmware (UEFI/BIOS).** The low-level software that starts a computer before the operating system loads. A firmware password and Secure Boot protect it.
 
 **FIDO2 / WebAuthn.** Standards behind hardware security keys and passkeys that resist phishing.
 
 **Full-disk encryption.** Encryption of the whole storage device, protecting data when the device is off. See [chapter 10](10-computers.md).
 
 **HTTPS.** Encrypted web connections, which protect page content in transit.
+
+**LUKS.** The standard Linux disk-encryption format. See [chapter 10](10-computers.md).
 
 **Metadata.** Data about communications and activity (who, when, where, how much), as opposed to the content. See [chapter 20](20-metadata.md).
 
@@ -46,11 +56,15 @@ Previous: [If compromised](23-if-compromised.md) | [Home](../README.md) | Next: 
 
 **Recovery key.** A secret code that restores access to an encrypted account or disk. Losing it can mean permanent loss of data.
 
+**Secure Boot.** A firmware feature that only starts operating-system software signed by trusted keys, making boot-time tampering harder. See [chapter 10](10-computers.md).
+
 **Security.** Protection against unauthorized access to your accounts, devices, and data.
 
 **SIM swapping.** Convincing a carrier to move your number to an attacker's SIM, to intercept SMS codes and calls.
 
 **Spyware / stalkerware.** Software that secretly monitors a device's activity, messages, or location. See [chapter 23](23-if-compromised.md).
+
+**TPM (Trusted Platform Module).** A chip that stores encryption keys and releases them only if the boot process is unchanged. See [chapter 10](10-computers.md).
 
 **Threat model.** A written assessment of what you protect, from whom, and how much effort the protection is worth. See [chapter 02](02-threat-models.md).
 

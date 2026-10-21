@@ -20,7 +20,7 @@ Each chapter follows the same shape: who it is for, what leaks, concrete steps, 
 2. [Privacy, security, and anonymity](guide/01-privacy-security-anonymity.md)
 3. [Threat models](guide/02-threat-models.md)
 
-Pick your threat level in chapter 2 before choosing tools. Most people need chapters 3 to 16 and nothing more.
+Pick your threat level (0 to 6) in chapter 2 before choosing tools. Most people need chapters 3 to 16 and nothing more. Chapter 2 also summarizes what a well-secured computer looks like at each level.
 
 ## Everyday chapters
 
@@ -28,7 +28,7 @@ Pick your threat level in chapter 2 before choosing tools. Most people need chap
 |---|---------|--------|
 | 00 | [How to read this guide](guide/00-how-to-read.md) | Scope, limits, how to use the checklists |
 | 01 | [Privacy, security, anonymity](guide/01-privacy-security-anonymity.md) | Three different goals |
-| 02 | [Threat models](guide/02-threat-models.md) | Choosing a level before choosing tools |
+| 02 | [Threat models](guide/02-threat-models.md) | Seven threat levels (0 to 6), with computer security per level |
 | 03 | [Accounts](guide/03-accounts.md) | Passwords, passkeys, 2FA, recovery |
 | 04 | [Email](guide/04-email.md) | Primary inbox, aliases, provider visibility |
 | 05 | [Browsers](guide/05-browsers.md) | Tracking, fingerprinting, extensions |
@@ -36,7 +36,7 @@ Pick your threat level in chapter 2 before choosing tools. Most people need chap
 | 07 | [Messaging](guide/07-messaging.md) | Encrypted chat and metadata |
 | 08 | [Social media](guide/08-social-media.md) | Profiles, audiences, linkage |
 | 09 | [Phones](guide/09-phones.md) | Permissions, app stores, backups |
-| 10 | [Computers](guide/10-computers.md) | Updates, disk encryption, vendor telemetry |
+| 10 | [Computers and computer security](guide/10-computers.md) | Disk encryption, secure boot, hardening, backups, tiered by threat level |
 | 11 | [Files, cloud, and backups](guide/11-files-cloud-backups.md) | Sync, shared links, photo libraries |
 | 12 | [Payments](guide/12-payments.md) | Cards, shop accounts, loyalty programs |
 | 13 | [Home and devices](guide/13-home-and-devices.md) | Router, speakers, cameras, TVs |

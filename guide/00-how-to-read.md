@@ -35,7 +35,8 @@ Do not try to finish the whole guide in one sitting. A reasonable order:
 1. Read chapters 01 and 02 and write down your threat model in a few sentences.
 2. Do the checklists in chapters 03 (accounts) and 04 (email) first. Account compromise is the most common serious privacy failure.
 3. Work through the rest of Part 1 in any order, starting with the devices you use most.
-4. Read Part 2 only if chapter 02 puts you at a higher risk level.
+4. Read chapter 10 (computers) in the tier that matches your level: baseline for levels 1 and 2, elevated for level 3, high risk for levels 4 and 5.
+5. Read Part 2 only if chapter 02 puts you at level 3 or higher.
 
 ## Keeping it current
 
