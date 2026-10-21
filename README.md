@@ -1,4 +1,4 @@
-# Online Privacy Guide
+# A Practical Guide to Online Privacy.
 
 > ## IMPORTANT: Read the [Disclaimer and Limitation of Liability](guide/disclaimer.md) first
 >
