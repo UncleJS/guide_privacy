@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>17. Targeted threats | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html">09. Phones</a></li><li><a href="10-computers.html">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html" aria-current="page">17. Targeted threats</a></li><li><a href="18-compartments.html">18. Compartments</a></li><li><a href="19-device-seizure.html">19. Device seizure</a></li><li><a href="20-metadata.html">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>17. Targeted threats</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#part-2-higher-risk-situations">Part 2: higher-risk situations</a></li><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#bulk-collection-versus-targeted-attention">Bulk collection versus targeted attention</a></li><li><a href="#adversary-profiles">Adversary profiles</a></li><li><a href="#where-targeted-attacks-usually-succeed">Where targeted attacks usually succeed</a></li><li><a href="#steps">Steps</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="part-2-higher-risk-situations">Part 2: higher-risk situations</h2>
+<p>Chapters 17 to 23 are for people who face a specific adversary. They assume that you have completed the checklists in chapters 03 to 16. Without that baseline, the advanced steps protect little.</p>
+<blockquote>
+<p><strong>Important:</strong> the guidance in Part 2 is general and may be insufficient for targeted surveillance, stalking, coercion, or other serious threats. Some changes can attract attention or increase risk. Get advice from a qualified security professional or support organization before making changes that could affect your safety. See the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a>.</p>
+</blockquote>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>People who believe or know that a particular person or organization wants information about them: an abusive or controlling partner or ex-partner, an employer, a litigant, a coordinated harasser, or a government. Journalists, human rights defenders, lawyers, activists, and people leaving abusive situations are common examples.</p>
+<h2 id="bulk-collection-versus-targeted-attention">Bulk collection versus targeted attention</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>Bulk collection</th>
+<th>Targeted attention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Goal</strong></td>
+<td>Collect from everyone, then sort</td>
+<td>Learn about you specifically</td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td>Ad trackers, data brokers, mass surveillance</td>
+<td>An abuser with access, a state investigation, a harassment campaign</td>
+</tr>
+<tr>
+<td><strong>Defense</strong></td>
+<td>Good habits and defaults</td>
+<td>A specific plan, based on who the adversary is and what they can do</td>
+</tr>
+<tr>
+<td><strong>Typical failure</strong></td>
+<td>Convenience wins over settings</td>
+<td>A single mistake links your identities or exposes a device</td>
+</tr>
+</tbody>
+</table></div>
+<p>Most privacy advice defends against bulk collection. Targeted threats require you to choose which adversary you are defending against, because the best defense differs.</p>
+<h2 id="adversary-profiles">Adversary profiles</h2>
+<h3 id="someone-with-close-access-partner-ex-partner-family-member-roommate">Someone with close access (partner, ex-partner, family member, roommate)</h3>
+<p><strong>Capabilities:</strong> knows your habits and passwords or security answers, may have had physical access to devices, shared accounts, or plans, may be able to guess recovery details, may install apps or monitoring software on your devices, or use location-sharing features.</p>
+<p><strong>Typical failures:</strong> shared cloud accounts, a family plan, a tracker hidden in a bag or car, old logins that still work, a device that has been handed back with changes.</p>
+<p><strong>Priority:</strong> safe, trusted devices and accounts the person has never touched, plus a plan for your physical safety. See <a href="14-households.html">chapter 14</a> and <a href="23-if-compromised.html">chapter 23</a>. Changing settings can alert the person; if you are in danger, speak to a domestic-abuse support service first.</p>
+<h3 id="an-employer-or-institution">An employer or institution</h3>
+<p><strong>Capabilities:</strong> control of work devices and accounts, network monitoring, email retention, badge and building records, and legal access to what you do on their equipment.</p>
+<p><strong>Priority:</strong> keep personal activity on personal devices and networks (<a href="10-computers.html">chapter 10</a>).</p>
+<h3 id="coordinated-harassers">Coordinated harassers</h3>
+<p><strong>Capabilities:</strong> open-source research, public records, data brokers, social media, impersonation, reporting campaigns, phishing, and attempts at account takeover.</p>
+<p><strong>Priority:</strong> reduce your public footprint (<a href="15-data-brokers-and-breaches.html">chapter 15</a>), harden accounts (<a href="03-accounts.html">chapter 03</a>), separate identities (<a href="18-compartments.html">chapter 18</a>), keep records, and ask platforms and, where needed, law enforcement or a legal adviser for help.</p>
+<h3 id="legal-adversaries-and-litigants">Legal adversaries and litigants</h3>
+<p><strong>Capabilities:</strong> legal process to obtain your records from providers, to demand disclosure of documents and messages, and to preserve evidence.</p>
+<p><strong>Priority:</strong> know that deleting evidence once a dispute is foreseeable can be unlawful. Speak with a lawyer before changing or deleting anything related to the dispute.</p>
+<h3 id="governments">Governments</h3>
+<p><strong>Capabilities:</strong> legal demands to companies and carriers, network monitoring, border and checkpoint device searches, physical surveillance, informants, and in some cases commercial spyware against selected people.</p>
+<p><strong>Priority:</strong> understand what your local law allows, what a provider can hand over, and where your devices are exposed (<a href="19-device-seizure.html">chapter 19</a>, <a href="20-metadata.html">chapter 20</a>). Get help from an organization that supports people in your situation.</p>
+<h2 id="where-targeted-attacks-usually-succeed">Where targeted attacks usually succeed</h2>
+<ul>
+<li><strong>Human mistakes:</strong> a reused username, a photo taken at home, the same writing style, a lapse in a routine.</li>
+<li><strong>The weakest account:</strong> a recovery email or phone number linked to an old account.</li>
+<li><strong>Trust in the wrong person:</strong> an informant, a contact whose device is compromised, or someone who forwards a message.</li>
+<li><strong>Social engineering:</strong> phishing and impersonation aimed at you or at your provider's support staff.</li>
+<li><strong>Legal process:</strong> a provider is required to hand over what it holds.</li>
+</ul>
+<p>Technical exploits against well-maintained devices exist, but they are expensive and used against few people. Human and operational mistakes are far more common.</p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li><strong>Write a specific threat model</strong> (<a href="02-threat-models.html">chapter 02</a>): who, what they want, what they can do, what happens if they succeed.</li>
+<li><strong>List your assets and where they live:</strong> accounts, devices, locations, relationships.</li>
+<li><strong>Fix the baseline</strong> from Part 1, especially accounts, updates, and device encryption.</li>
+<li><strong>Choose the defenses that match the adversary,</strong> not the most dramatic ones. Chapters 18 to 22 cover separation, metadata, tools, and travel.</li>
+<li><strong>Build a support network.</strong> Identify a trusted person, a lawyer or advocacy organization, and a digital-security helpline (see <a href="further-reading.html">further reading</a>).</li>
+<li><strong>Plan for failure.</strong> Decide in advance what you will do if an account or device is compromised (<a href="23-if-compromised.html">chapter 23</a>).</li>
+</ol>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<ul>
+<li>No technical measure replaces physical safety planning or legal advice.</li>
+<li>A determined adversary with legal power can compel companies, and in some places people, to disclose information.</li>
+<li>Extra tools add complexity, and complexity causes mistakes. Use as little as your threat model requires.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>I named my adversary and what they can do.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Part 1 baseline is complete.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I have a plan, a support contact, and a legal or advocacy resource.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I know which chapters in Part 2 apply to me.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="16-account-takeover.html">&larr; 16. Account takeover</a><a class="next" href="18-compartments.html">18. Compartments &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>09. Phones | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html" aria-current="page">09. Phones</a></li><li><a href="10-computers.html">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html">17. Targeted threats</a></li><li><a href="18-compartments.html">18. Compartments</a></li><li><a href="19-device-seizure.html">19. Device seizure</a></li><li><a href="20-metadata.html">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>09. Phones</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#what-leaks">What leaks</a></li><li><a href="#steps">Steps</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>Everyone with a smartphone. Your phone holds your location history, contacts, photos, messages, and the keys to most of your accounts.</p>
+<h2 id="what-leaks">What leaks</h2>
+<ul>
+<li><strong>Location.</strong> From GPS, Wi-Fi networks, Bluetooth beacons, cell towers, and apps. Many apps collect and sell it.</li>
+<li><strong>App data.</strong> Apps request contacts, microphone, camera, photos, and tracking identifiers.</li>
+<li><strong>Advertising ID.</strong> A device-level identifier that lets ad networks follow you across apps.</li>
+<li><strong>Backups.</strong> Cloud backups can expose more than the phone itself, depending on encryption.</li>
+<li><strong>Lock screen.</strong> Notifications, widgets, and assistant features can display or act on private data.</li>
+<li><strong>Carrier.</strong> Your mobile provider knows which towers you connect to, your number, and often your name.</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<h3 id="1-updates-and-lock">1. Updates and lock</h3>
+<ul>
+<li>Turn on automatic operating system and app updates. Replace a phone that no longer receives security updates.</li>
+<li>Use a six-digit passcode or longer, or an alphanumeric one. Biometrics are convenient; know that in some situations you can be compelled to unlock a device with a fingerprint or face more easily than with a passcode (<a href="19-device-seizure.html">chapter 19</a>).</li>
+<li>Enable the "find my device" feature so a lost phone can be located and wiped.</li>
+<li>Set the screen to lock quickly and hide notification content on the lock screen.</li>
+</ul>
+<h3 id="2-permissions">2. Permissions</h3>
+<p>Review permissions app by app, and by permission type.</p>
+<ul>
+<li><strong>Location:</strong> choose "while using the app", or "never". Turn off precise location when an approximate position is enough. Turn off "always".</li>
+<li><strong>Contacts, photos, microphone, camera:</strong> deny by default and grant only when needed. Prefer "selected photos" over the full library.</li>
+<li><strong>Bluetooth and nearby devices:</strong> deny unless the app uses a device.</li>
+<li><strong>Notifications:</strong> disable for apps that do not need them.</li>
+<li>Remove apps you do not use. Each is a data source and an attack surface.</li>
+</ul>
+<h3 id="3-reduce-tracking">3. Reduce tracking</h3>
+<ul>
+<li>Turn off the advertising identifier or reset it periodically, and opt out of personalized ads.</li>
+<li>On iPhone, set apps to ask before tracking. On Android, delete the advertising ID where the option is offered.</li>
+<li>Turn off location-based ads and "significant locations" history if you do not use them.</li>
+<li>Turn off Wi-Fi and Bluetooth scanning for location in system settings.</li>
+</ul>
+<h3 id="4-install-apps-from-official-stores">4. Install apps from official stores</h3>
+<ul>
+<li>Use the official app store of your platform. Sideloading increases malware risk.</li>
+<li>Check the developer, the permissions requested, and recent reviews before installing.</li>
+<li>Prefer the website over an app when you only need a service once; browsers give sites less access than apps.</li>
+</ul>
+<h3 id="5-backups">5. Backups</h3>
+<ul>
+<li>Know where your phone backs up and what the provider can read.</li>
+<li>Turn on end-to-end encrypted backups if your platform offers them; on iPhone, this is Advanced Data Protection. Understand the recovery trade-offs before enabling.</li>
+<li>Keep a local, encrypted backup if you want one that the cloud provider cannot read.</li>
+</ul>
+<h3 id="6-carrier-and-number">6. Carrier and number</h3>
+<ul>
+<li>Add a PIN to the carrier account and request port-out protection (<a href="03-accounts.html">chapter 03</a>).</li>
+<li>Treat your number as semi-public. It is used for SMS codes and ends up in data broker records.</li>
+<li>Consider a secondary number for sign-ups and delivery services.</li>
+</ul>
+<h3 id="7-lost-or-stolen">7. Lost or stolen</h3>
+<ul>
+<li>Lock or erase the device remotely. Change passwords for accounts that were signed in.</li>
+<li>Report to your carrier to block the SIM.</li>
+<li>Review account sessions and revoke the lost device.</li>
+</ul>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<ul>
+<li>The operating system vendor and apps still collect data you permit them to collect.</li>
+<li>A carrier can locate your phone while it is connected to the network.</li>
+<li>Spyware installed with physical access or through a malicious link can defeat all of the above. See <a href="23-if-compromised.html">chapter 23</a>.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>Automatic updates on, supported phone.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Strong passcode and quick auto-lock; lock-screen notifications hidden.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Permissions reviewed; location set to "while using" or off.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Ad tracking limited; unused apps removed.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Backups understood and encrypted where possible.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Carrier PIN and port-out protection set.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Lost-phone plan ready.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="08-social-media.html">&larr; 08. Social media</a><a class="next" href="10-computers.html">10. Computers and computer security &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

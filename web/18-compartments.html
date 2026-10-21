@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>18. Compartments | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html">09. Phones</a></li><li><a href="10-computers.html">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html">17. Targeted threats</a></li><li><a href="18-compartments.html" aria-current="page">18. Compartments</a></li><li><a href="19-device-seizure.html">19. Device seizure</a></li><li><a href="20-metadata.html">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>18. Compartments</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#what-links-identities">What links identities</a></li><li><a href="#steps">Steps</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>People who need two or more identities kept apart: for example a public name and a private life, a whistleblowing or reporting role, an activist account, a support-group persona, or a safe account used when escaping an abusive situation.</p>
+<p>Compartmentalization means keeping identities, devices, and accounts separate so that a problem in one does not expose the others. It reduces risk. It does not make an identity anonymous.</p>
+<h2 id="what-links-identities">What links identities</h2>
+<p>Identities usually connect through ordinary details, not clever attacks:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Link</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Recovery details</strong></td>
+<td>The same recovery email or phone number on two accounts</td>
+</tr>
+<tr>
+<td><strong>Payment</strong></td>
+<td>One card, name on a receipt, shipping address</td>
+</tr>
+<tr>
+<td><strong>Username and profile</strong></td>
+<td>Reused handle, photo, bio</td>
+</tr>
+<tr>
+<td><strong>Network</strong></td>
+<td>Same home IP address or the same Wi-Fi</td>
+</tr>
+<tr>
+<td><strong>Device</strong></td>
+<td>Same phone, browser profile, or app install</td>
+</tr>
+<tr>
+<td><strong>Contacts</strong></td>
+<td>The same friends followed or messaged</td>
+</tr>
+<tr>
+<td><strong>Behavior</strong></td>
+<td>Same active hours, writing style, vocabulary, interests</td>
+</tr>
+<tr>
+<td><strong>Photos</strong></td>
+<td>Metadata, backgrounds, faces, reflections</td>
+</tr>
+<tr>
+<td><strong>Time</strong></td>
+<td>Posting right after a real-life event</td>
+</tr>
+<tr>
+<td><strong>Cloud accounts</strong></td>
+<td>One cloud account backing up both identities' devices</td>
+</tr>
+</tbody>
+</table></div>
+<p>One slip can join the identities, and the join is usually permanent.</p>
+<h2 id="steps">Steps</h2>
+<h3 id="1-define-each-compartment">1. Define each compartment</h3>
+<p>For each identity, write down:</p>
+<ul>
+<li>Purpose and who knows about it.</li>
+<li>Which accounts, email, phone number, devices, and payment methods belong to it.</li>
+<li>What it must never touch (names, places, people, networks from another identity).</li>
+</ul>
+<h3 id="2-separate-the-building-blocks">2. Separate the building blocks</h3>
+<ul>
+<li><strong>Email:</strong> a dedicated address per identity, created without using another identity's email or number for recovery.</li>
+<li><strong>Phone number:</strong> a separate number if the identity needs one. Know that many providers require ID in your country, which links the number to your legal name.</li>
+<li><strong>Passwords:</strong> a separate password manager vault, or a separate manager, per identity. Use a different master passphrase.</li>
+<li><strong>Payments:</strong> keep identities with different payment methods when payment records matter. Be aware that the legal name on a card links the identity to you.</li>
+<li><strong>Devices:</strong> ideally a separate device per high-risk identity. A new device, bought without linking it to your main accounts, is stronger than a profile on a shared one. Do not sign in to your regular cloud or app-store accounts on it.</li>
+<li><strong>Browsers:</strong> at minimum a separate browser profile; better, a separate browser.</li>
+<li><strong>Network:</strong> avoid connecting a sensitive identity from the same home or work network as your real identity if the adversary can see network records. See <a href="21-anonymity-tools.html">chapter 21</a> for tools and their limits.</li>
+</ul>
+<h3 id="3-keep-habits-apart">3. Keep habits apart</h3>
+<ul>
+<li>Use different usernames, avatars, writing style, and interests.</li>
+<li>Do not post at times that match your real-life routine.</li>
+<li>Do not mention your real life, location, workplace, or family in the separate identity.</li>
+<li>Do not reuse photos or images across identities. Strip metadata from images (<a href="08-social-media.html">chapter 08</a>).</li>
+<li>Do not message across identities, such as using one account to ask another for help.</li>
+</ul>
+<h3 id="4-create-the-identity-cleanly">4. Create the identity cleanly</h3>
+<ul>
+<li>Start from clean devices and clean networks. If you create the account while signed in to your normal accounts, the platform may link them.</li>
+<li>Do not import contacts from your main phone.</li>
+<li>Avoid "Sign in with" connections.</li>
+</ul>
+<h3 id="5-limit-the-damage-of-a-slip">5. Limit the damage of a slip</h3>
+<ul>
+<li>Decide in advance what you will do if the link is exposed: shut down the account, notify people, and change related passwords.</li>
+<li>Keep a record, offline, of what each identity has used so that you can check for cross-links.</li>
+<li>Review each compartment periodically for leaks: new contacts, old photos, tags by other people.</li>
+</ul>
+<h3 id="6-handle-other-people">6. Handle other people</h3>
+<ul>
+<li>Tell the few people who need to know only what they need to know.</li>
+<li>Ask them not to tag, mention, or forward across identities.</li>
+<li>Remember that their phone books and backups hold your details.</li>
+</ul>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<ul>
+<li>Platforms may link accounts through signals you did not think of, such as device fingerprints, contact uploads, or behavioral patterns.</li>
+<li>A court order or provider breach can reveal the underlying details.</li>
+<li>Compartments take discipline. One tired mistake joins them.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>I wrote down each identity's purpose, accounts, and devices.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Recovery emails and numbers are separate per identity.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Browsers or devices are separate.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>No shared photos, usernames, networks, or contacts between compartments.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I have a plan if an identity is exposed.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="17-targeted-threats.html">&larr; 17. Targeted threats</a><a class="next" href="19-device-seizure.html">19. Device seizure &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

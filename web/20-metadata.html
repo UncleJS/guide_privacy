@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>20. Metadata | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html">09. Phones</a></li><li><a href="10-computers.html">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html">17. Targeted threats</a></li><li><a href="18-compartments.html">18. Compartments</a></li><li><a href="19-device-seizure.html">19. Device seizure</a></li><li><a href="20-metadata.html" aria-current="page">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>20. Metadata</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#what-metadata-is">What metadata is</a></li><li><a href="#who-can-see-it">Who can see it</a></li><li><a href="#steps">Steps</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>People whose risk comes from being known to be in contact with someone, or at some place, rather than from what they said. Sources and journalists, lawyers and clients, support-group members, activists, and people leaving abusive situations commonly face this.</p>
+<h2 id="what-metadata-is">What metadata is</h2>
+<p>Metadata is data about communication and activity, not the content. Examples:</p>
+<ul>
+<li><strong>Who</strong> you contact: phone numbers, email addresses, usernames.</li>
+<li><strong>When</strong> and how often: timestamps, duration, patterns.</li>
+<li><strong>Where</strong> from: IP address, cell tower, Wi-Fi network, GPS.</li>
+<li><strong>How:</strong> device type, app, operating system.</li>
+<li><strong>How big:</strong> message or file size, which can imply what was sent.</li>
+<li><strong>File metadata:</strong> author, device, editing history, and location in documents and photos.</li>
+</ul>
+<p>Metadata is revealing because it can be gathered at scale, it is not usually encrypted, and it shows relationships and routines. A pattern of calls to a clinic, a lawyer, or a reporter says a lot without any content.</p>
+<h2 id="who-can-see-it">Who can see it</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Observer</th>
+<th>Typically sees</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mobile carrier</td>
+<td>Your number, who you call and text by SMS, approximate location from towers</td>
+</tr>
+<tr>
+<td>Internet provider</td>
+<td>Sites and servers you connect to, timing, and volume</td>
+</tr>
+<tr>
+<td>Messaging provider</td>
+<td>Account, contacts, IP address, timing, sometimes group membership</td>
+</tr>
+<tr>
+<td>Email provider</td>
+<td>Sender, recipient, subject, time, size, IP address</td>
+</tr>
+<tr>
+<td>Network owner (Wi-Fi)</td>
+<td>Devices, destinations, timing</td>
+</tr>
+<tr>
+<td>Websites and apps</td>
+<td>IP address, device details, activity on their service</td>
+</tr>
+<tr>
+<td>Another party</td>
+<td>Whatever you sent them, including document metadata</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="steps">Steps</h2>
+<h3 id="1-choose-services-that-collect-less">1. Choose services that collect less</h3>
+<ul>
+<li>Prefer messengers that minimize stored metadata, and that offer features such as sealed sender or usernames instead of numbers (<a href="07-messaging.html">chapter 07</a>).</li>
+<li>Read the provider's transparency report and law-enforcement guide. They show what it holds and discloses.</li>
+<li>Use a username instead of a phone number where the app offers it.</li>
+</ul>
+<h3 id="2-separate-contact-paths">2. Separate contact paths</h3>
+<ul>
+<li>Use a number or account that is not linked to your legal name for sensitive contacts, as far as local rules allow. Many countries require registration for SIM cards.</li>
+<li>Keep sensitive communication on a separate account, device, and network from everyday use (<a href="18-compartments.html">chapter 18</a>).</li>
+<li>Avoid calling or texting sensitive contacts from your usual phone number when the carrier record is the risk.</li>
+</ul>
+<h3 id="3-reduce-location-trails">3. Reduce location trails</h3>
+<ul>
+<li>Turn off location services, and Wi-Fi and Bluetooth scanning, when not needed (<a href="09-phones.html">chapter 09</a>).</li>
+<li>A phone connected to the mobile network is locatable by the carrier. Leaving it at home or powered off is the only complete way to avoid that record, and an absent phone is itself a pattern.</li>
+<li>Be aware of other trails: transport cards, toll tags, payment records, license-plate readers, camera networks.</li>
+</ul>
+<h3 id="4-clean-files-before-sharing">4. Clean files before sharing</h3>
+<ul>
+<li>Remove metadata from documents, images, and PDFs before sharing. Check author names, tracked changes, comments, GPS data, and hidden text.</li>
+<li>Share a copy exported in a flat format, not the original file.</li>
+<li>Be careful with printed documents: many printers add near-invisible tracking dots that identify the device and the time.</li>
+<li>Do not share screenshots with visible notifications, tabs, or usernames.</li>
+</ul>
+<h3 id="5-vary-patterns">5. Vary patterns</h3>
+<ul>
+<li>Predictable timing, locations, and routes make you easy to link. Where safe and practical, change them.</li>
+<li>Do not contact a sensitive person immediately after an event that links you to it.</li>
+<li>Be careful about the chain: if your contact is monitored, you become visible through them.</li>
+</ul>
+<h3 id="6-use-tools-that-hide-the-network-layer-with-care">6. Use tools that hide the network layer, with care</h3>
+<ul>
+<li>Tor and VPNs hide parts of the network metadata, and they have their own limits (<a href="21-anonymity-tools.html">chapter 21</a>).</li>
+<li>They do not hide the account you sign in to, or what you say.</li>
+</ul>
+<h3 id="7-agree-on-a-protocol-with-sensitive-contacts">7. Agree on a protocol with sensitive contacts</h3>
+<ul>
+<li>Choose the channel, the schedule, and the conventions in advance, ideally in person.</li>
+<li>Say what to do if one of you thinks the channel is compromised.</li>
+<li>Keep sensitive conversations short and purposeful.</li>
+</ul>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<ul>
+<li>A provider that must log, or is compelled to, still has the record.</li>
+<li>Telephone and mobile-network metadata cannot be hidden from the carrier while the service is used.</li>
+<li>If the person you contact is exposed, your contact with them is exposed.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>I know who can see which metadata about my sensitive contacts.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I use an account and channel that fits my threat for sensitive contacts.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Files are cleaned before sharing.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I considered location trails and payment records.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I agreed a protocol with the people involved.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="19-device-seizure.html">&larr; 19. Device seizure</a><a class="next" href="21-anonymity-tools.html">21. Anonymity tools &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

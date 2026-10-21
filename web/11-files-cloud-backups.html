@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>11. Files, cloud, and backups | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html">09. Phones</a></li><li><a href="10-computers.html">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html" aria-current="page">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html">17. Targeted threats</a></li><li><a href="18-compartments.html">18. Compartments</a></li><li><a href="19-device-seizure.html">19. Device seizure</a></li><li><a href="20-metadata.html">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>11. Files, cloud, and backups</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#what-leaks">What leaks</a></li><li><a href="#steps">Steps</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>Anyone who stores photos, documents, or backups online or on external drives.</p>
+<h2 id="what-leaks">What leaks</h2>
+<ul>
+<li><strong>Provider access.</strong> Most cloud services can read your files, scan them for policy violations, and hand them over when legally required.</li>
+<li><strong>Account compromise.</strong> A hacked cloud account exposes years of photos, documents, and device backups at once.</li>
+<li><strong>Shared links.</strong> "Anyone with the link" files can be forwarded, indexed, or guessed.</li>
+<li><strong>Photo metadata.</strong> Photos carry location, time, and device data.</li>
+<li><strong>Forgotten copies.</strong> Old backups, synced folders, and trash bins keep files you thought were deleted.</li>
+<li><strong>Third-party apps.</strong> Apps given access to your cloud storage can read everything they are allowed to.</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<h3 id="1-decide-what-belongs-in-the-cloud">1. Decide what belongs in the cloud</h3>
+<p>Sort files into three groups:</p>
+<ul>
+<li><strong>Fine in a mainstream cloud:</strong> low-sensitivity documents, shared family photos, reference material.</li>
+<li><strong>Encrypt before uploading, or use an end-to-end encrypted service:</strong> identity documents, tax and medical records, financial files, sensitive photos, legal documents.</li>
+<li><strong>Keep offline:</strong> recovery keys, seed phrases, and anything where a leak would cause serious harm.</li>
+</ul>
+<h3 id="2-use-end-to-end-encrypted-storage-for-sensitive-files">2. Use end-to-end encrypted storage for sensitive files</h3>
+<ul>
+<li>Choose a service where files are encrypted on your device and the provider has no key (zero-knowledge). Check whether the service is audited and open about its design.</li>
+<li>Alternatively, encrypt files locally with a vetted tool before uploading them to any provider, and keep the key away from the provider.</li>
+<li>Keep the recovery key offline. Losing it means losing the files.</li>
+</ul>
+<h3 id="3-secure-the-cloud-account">3. Secure the cloud account</h3>
+<ul>
+<li>Protect it with a passkey or hardware key (<a href="03-accounts.html">chapter 03</a>).</li>
+<li>Review which apps and devices have access, and revoke the ones you do not use.</li>
+<li>Turn on notifications for sign-in from new devices.</li>
+<li>If your platform offers end-to-end encrypted backups, understand the recovery trade-off before enabling them (<a href="09-phones.html">chapter 09</a>).</li>
+</ul>
+<h3 id="4-share-carefully">4. Share carefully</h3>
+<ul>
+<li>Share with specific people rather than "anyone with the link".</li>
+<li>Set expiry dates and passwords on links where supported.</li>
+<li>Review shared items periodically and remove old shares.</li>
+<li>Remove edit access when view access is enough.</li>
+</ul>
+<h3 id="5-handle-photos">5. Handle photos</h3>
+<ul>
+<li>Turn off location tags in the camera app if you do not need them.</li>
+<li>Remove metadata from images before sharing them publicly or with people you do not trust.</li>
+<li>Review shared albums and who can see them.</li>
+<li>Know that "hidden" or "recently deleted" albums still sit in the same account and are synced.</li>
+</ul>
+<h3 id="6-back-up-on-purpose">6. Back up on purpose</h3>
+<p>Use the 3-2-1 rule: three copies, on two kinds of storage, with one off-site.</p>
+<ul>
+<li>Keep one backup on an encrypted external drive. Disconnect it when you are not backing up, which protects it from ransomware.</li>
+<li>Test restoring a file now and then. A backup you cannot restore is not a backup.</li>
+<li>Store the off-site copy encrypted, or at a place you trust.</li>
+</ul>
+<h3 id="7-delete-properly">7. Delete properly</h3>
+<ul>
+<li>Empty the trash and check for synced copies on other devices.</li>
+<li>Deleting from a cloud service may not remove the file immediately from backups.</li>
+<li>Before disposing of a drive, use full-disk encryption from the start; for an unencrypted drive, a standard overwrite is not reliable on solid-state drives. Physical destruction or encrypted-from-the-start storage is the dependable approach.</li>
+</ul>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<ul>
+<li>A provider that holds encryption keys can read your files if compelled or compromised.</li>
+<li>Files shared with others stay with them.</li>
+<li>Metadata (file names, sizes, timestamps, sharing relationships) may remain visible even with end-to-end encrypted storage.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>I know which files must not be stored in a mainstream cloud unencrypted.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Cloud account has a passkey or hardware key and reviewed app access.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Shared links reviewed; "anyone with the link" reduced.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Photo location tags off, or removed before sharing.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>A working encrypted backup following 3-2-1.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="10-computers.html">&larr; 10. Computers and computer security</a><a class="next" href="12-payments.html">12. Payments &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

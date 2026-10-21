@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>10. Computers and computer security | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html">09. Phones</a></li><li><a href="10-computers.html" aria-current="page">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html">17. Targeted threats</a></li><li><a href="18-compartments.html">18. Compartments</a></li><li><a href="19-device-seizure.html">19. Device seizure</a></li><li><a href="20-metadata.html">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>10. Computers and computer security</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#what-leaks">What leaks</a></li><li><a href="#baseline-steps">Baseline steps</a></li><li><a href="#elevated-steps-level-3-and-above">Elevated steps (level 3 and above)</a></li><li><a href="#high-risk-steps-levels-4-and-5">High-risk steps (levels 4 and 5)</a></li><li><a href="#selling-recycling-or-giving-away">Selling, recycling, or giving away</a></li><li><a href="#work-and-school-devices">Work and school devices</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>Anyone who uses a laptop or desktop. A computer holds far more data than a phone, usually has fewer protections turned on, and often runs the programs that handle your email, files, passwords, and banking. If an attacker gets into your computer, most other protections in this guide stop mattering.</p>
+<p>This chapter is organized in three tiers that match the threat levels in <a href="02-threat-models.html">chapter 02</a>:</p>
+<ul>
+<li><strong>Baseline (levels 1 and 2):</strong> steps 1 to 10. Do these on every computer.</li>
+<li><strong>Elevated (level 3):</strong> steps 11 to 13. Add these if someone with access to your devices, or a determined attacker, is a concern.</li>
+<li><strong>High risk (levels 4 and 5):</strong> steps 14 to 16. Add these for targeted threats; read them together with <a href="17-targeted-threats.html">chapters 17 to 22</a>.</li>
+</ul>
+<h2 id="what-leaks">What leaks</h2>
+<ul>
+<li><strong>Unencrypted disk.</strong> Anyone with physical access can read files from a lost or stolen computer, using nothing more than a second computer or a bootable USB stick.</li>
+<li><strong>Weak sign-in.</strong> A short or reused login password lets a thief or visitor in, and it often unlocks the password manager, browser, and cloud sync too.</li>
+<li><strong>Operating system telemetry.</strong> The vendor collects diagnostics, usage data, and sometimes advertising data.</li>
+<li><strong>Shared accounts.</strong> Family members, roommates, and visitors can see your files and browser sessions.</li>
+<li><strong>Employer or school management.</strong> A managed device lets the administrator see activity and install software.</li>
+<li><strong>Outdated software.</strong> Unpatched flaws let malware steal data or lock your files for ransom.</li>
+<li><strong>Malicious software.</strong> Fake installers, pirated programs, rogue browser extensions, and booby-trapped documents install spyware, keyloggers, or remote-access tools.</li>
+<li><strong>Exposed services.</strong> Remote desktop, file sharing, and similar features can let attackers in from the network.</li>
+<li><strong>Boot and firmware tampering.</strong> Someone with physical access can alter the boot process or hardware to capture your passphrase the next time you type it.</li>
+<li><strong>Backups.</strong> An unencrypted backup undoes disk encryption, and a backup that is always connected is encrypted by ransomware along with the original.</li>
+<li><strong>Screen and webcam.</strong> Malware or apps can capture them.</li>
+</ul>
+<h2 id="baseline-steps">Baseline steps</h2>
+<h3 id="1-keep-everything-updated">1. Keep everything updated</h3>
+<ul>
+<li>Turn on automatic updates for the OS, browser, and installed programs.</li>
+<li>Update firmware too: your laptop's UEFI/BIOS, and the firmware of the router, dock, and SSD where the vendor provides it. On Linux, <code>fwupd</code> delivers many vendor updates; on Windows and macOS, firmware arrives with system updates or the manufacturer's updater.</li>
+<li>Restart when asked. Many fixes only take effect after a restart.</li>
+<li>Replace a computer or operating system that no longer gets security updates. Running an unsupported system is the biggest avoidable risk on this list.</li>
+<li>Install software only from the official store, your distribution's repositories, or the vendor's own site. Check that you typed the address correctly and prefer a package manager, where available, to downloading installers from search results.</li>
+</ul>
+<h3 id="2-encrypt-the-disk">2. Encrypt the disk</h3>
+<p>Full-disk encryption protects your files when the computer is off, lost, or stolen. Without it, a thief can read your files in minutes, even if you have a strong login password, because the password does not protect the disk itself.</p>
+<p><strong>Windows.</strong></p>
+<ul>
+<li>BitLocker is available on Windows Pro, Enterprise, and Education. Windows Home may offer "Device Encryption" on supported hardware; it needs a Microsoft account sign-in or a work or school account.</li>
+<li>Check status in Settings under Privacy and security (Device encryption or BitLocker), or by running <code>manage-bde -status</code> in an administrator terminal.</li>
+<li>By default, BitLocker unlocks automatically through the TPM chip and does not ask for a pre-boot PIN. That protects against someone who removes the drive but not against someone who can start your computer and attack the sign-in screen. For a stronger setup, require a startup PIN or passphrase (Group Policy: "Require additional authentication at startup"), and consider a longer PIN. Higher-threat users should do this.</li>
+<li>Save the recovery key. Device Encryption stores it in your Microsoft account by default. Decide whether you want that. If you do not, keep the key printed or in your password manager, and remove it from the cloud account. Never leave it on the same computer.</li>
+<li>Choose XTS-AES 256 for new drives if offered.</li>
+<li>VeraCrypt is a third-party option for full-disk or container encryption; it supports pre-boot authentication without a TPM, but it is more work to maintain through updates.</li>
+</ul>
+<p><strong>macOS.</strong></p>
+<ul>
+<li>Turn on FileVault in System Settings under Privacy and Security. Apple silicon Macs encrypt their internal storage in hardware, but FileVault ties the keys to your login password, which is the part that protects you from someone who has your Mac.</li>
+<li>When setting up FileVault, choose whether to keep the recovery key in iCloud or to hold it yourself. Hold it yourself, printed or in your password manager, if you do not want the provider to be able to help recover it.</li>
+<li>Use a strong login password, and require it immediately after sleep or screen saver.</li>
+</ul>
+<p><strong>Linux.</strong></p>
+<ul>
+<li>Choose full-disk encryption (LUKS) in the installer. Distributions such as Fedora, Ubuntu, and Debian offer it as an option; it is difficult to add cleanly afterward.</li>
+<li>Use a strong passphrase for the LUKS volume. Several words or a long sentence are better than a short complex password.</li>
+<li>Encrypt swap too (usually included in the installer's LUKS setup), and consider whether you need hibernation, because hibernation writes memory to disk.</li>
+<li>By default, <code>/boot</code> and the EFI partition are not encrypted. That is enough for most people. For higher threat levels, see steps 11 to 13.</li>
+<li>Check status with <code>lsblk -f</code> or <code>sudo cryptsetup status &lt;name&gt;</code>.</li>
+</ul>
+<p><strong>Everywhere.</strong></p>
+<ul>
+<li>Disk encryption protects data only while the computer is <strong>off</strong>, or locked and <strong>not just asleep</strong>. When the computer is on or asleep, decryption keys stay in memory.</li>
+<li>If you will leave your laptop unattended, travel with it, or cross a border, <strong>shut it down completely</strong> instead of closing the lid. A powered-off machine is the strongest state.</li>
+<li>Disk encryption does not protect data from someone who knows your passphrase, or from you, once you are signed in.</li>
+</ul>
+<h3 id="3-use-strong-sign-in">3. Use strong sign-in</h3>
+<ul>
+<li>Your login password is the password that matters most on a computer. Use a long passphrase (four or more random words) that is unique and not used elsewhere.</li>
+<li>Lock the screen when you step away (Windows key plus L, Control-Command-Q on macOS, or Super-L on many Linux desktops), and set a short idle timeout.</li>
+<li>Use biometrics such as a fingerprint or face for convenience only if your threat model allows it; they cannot replace the passphrase after a restart.</li>
+<li>On a shared household computer, do not give others your password. Create separate accounts instead.</li>
+<li>If your computer supports sign-in with a hardware security key, consider using it (<a href="03-accounts.html">chapter 03</a>).</li>
+</ul>
+<h3 id="4-separate-accounts-and-limit-privileges">4. Separate accounts and limit privileges</h3>
+<ul>
+<li>Use a standard (non-administrator) account for daily work, and an administrator account only to install or change system settings. On Linux and macOS, <code>sudo</code> prompts do the same job; do not stay in a root session.</li>
+<li>Create separate accounts for family members and visitors.</li>
+<li>Do not store the administrator or recovery passwords in the browser.</li>
+<li>Remove accounts that nobody uses, and disable the guest account if you do not need it.</li>
+</ul>
+<h3 id="5-turn-on-built-in-protections">5. Turn on built-in protections</h3>
+<ul>
+<li>Keep the firewall on: Windows Defender Firewall, the macOS firewall, or <code>firewalld</code> or <code>ufw</code> on Linux. Treat unfamiliar networks as public networks.</li>
+<li>Use the built-in malware protection: Microsoft Defender and SmartScreen, macOS Gatekeeper, XProtect, and notarization checks. Leave them on. Additional security suites add attack surface and often their own telemetry.</li>
+<li>Keep Secure Boot on. It makes tampering with the boot software harder. On Linux, it works with most major distributions.</li>
+<li>Keep the operating system's sandboxing features on. On Linux, prefer packages from your distribution, and for desktop apps consider sandboxed Flatpaks.</li>
+<li>Do not turn off protections because an installer or a guide tells you to. That is a common malware technique.</li>
+</ul>
+<h3 id="6-remove-and-disable-what-you-do-not-use">6. Remove and disable what you do not use</h3>
+<ul>
+<li>Uninstall programs, browser extensions, and drivers that you do not use.</li>
+<li>Turn off remote desktop (RDP), screen sharing, file sharing, SSH, and remote login unless you need them. If you do, restrict them to your local network or use a VPN, require strong authentication, and keep the software updated.</li>
+<li>Turn off Bluetooth, AirDrop or Nearby Share (set to contacts only or off), and Wi-Fi when you are not using them.</li>
+<li>Be wary of "remote support" tools. A caller who asks you to install one is almost always a scammer.</li>
+</ul>
+<h3 id="7-use-a-password-manager-and-protect-the-clipboard">7. Use a password manager and protect the clipboard</h3>
+<ul>
+<li>Install a password manager from the official source (<a href="03-accounts.html">chapter 03</a>).</li>
+<li>Do not keep passwords in a text file, spreadsheet, or notes app.</li>
+<li>Clear the clipboard after you paste secrets; most password managers do this automatically.</li>
+<li>Be careful with browser auto-fill on shared computers.</li>
+</ul>
+<h3 id="8-back-up-and-protect-backups">8. Back up, and protect backups</h3>
+<ul>
+<li>Follow the 3-2-1 rule from <a href="11-files-cloud-backups.html">chapter 11</a>: three copies, two kinds of storage, one off-site.</li>
+<li>Encrypt backups. Time Machine, File History with BitLocker on the backup drive, Borg, Restic, and similar tools support encryption. An unencrypted backup undoes disk encryption.</li>
+<li>Keep at least one backup disconnected, so ransomware cannot reach it.</li>
+<li>Test restoring a file now and then.</li>
+</ul>
+<h3 id="9-handle-risky-files-and-software-with-care">9. Handle risky files and software with care</h3>
+<ul>
+<li>Do not open attachments or enable macros from unknown senders, and be careful with files that ask you to "enable editing" or "enable content".</li>
+<li>Avoid pirated software and "cracks". They are a common way to install malware.</li>
+<li>For links or files you must open but do not trust, use a throwaway virtual machine, or open them in your browser's viewer rather than installing the program.</li>
+<li>Verify the checksum or signature of downloads where the project provides one, particularly for security tools and operating system images.</li>
+<li>Keep browser extensions to the minimum (<a href="05-browsers.html">chapter 05</a>).</li>
+</ul>
+<h3 id="10-limit-telemetry-and-protect-the-camera">10. Limit telemetry and protect the camera</h3>
+<ul>
+<li>In OS privacy settings, turn off diagnostic data beyond the minimum, the advertising ID, tailored experiences, and location services you do not need.</li>
+<li>Turn off activity history, cloud clipboard, and personalized suggestions if you do not use them.</li>
+<li>Remove pre-installed programs you do not use.</li>
+<li>Know that you cannot turn all telemetry off on most commercial operating systems. Linux distributions collect less by default.</li>
+<li>Cover or disable the webcam when not in use, and review which apps may use the camera and microphone.</li>
+<li>Eject and encrypt external drives before disposing of them, or physically destroy them.</li>
+</ul>
+<h2 id="elevated-steps-level-3-and-above">Elevated steps (level 3 and above)</h2>
+<p>Use these when someone you know, an employer, or a persistent adversary might get physical access to your computer, or when a thief with time and tools is a realistic concern.</p>
+<h3 id="11-harden-startup">11. Harden startup</h3>
+<ul>
+<li><strong>Set a firmware (UEFI/BIOS) password.</strong> It stops someone from changing boot settings or booting from a USB stick. On older Intel Macs, set a firmware password; on Apple silicon Macs, use the Startup Security Utility and keep Activation Lock on.</li>
+<li><strong>Turn on Secure Boot</strong> and disable booting from USB, network, and optical drives unless you need them. Re-enable only when required.</li>
+<li><strong>Require a pre-boot passphrase or PIN.</strong> BitLocker with a startup PIN, or LUKS with a passphrase typed at boot, is much stronger than TPM-only unlock. A thief who starts the computer must still guess the passphrase before the operating system loads.</li>
+<li><strong>Use measured boot where available.</strong> With Secure Boot on, the TPM only releases the BitLocker key if the boot software is unchanged. On Linux, you can bind a LUKS key to the TPM with <code>systemd-cryptenroll</code>, and combine it with a PIN. A changed boot chain then prompts for the recovery key instead of silently unlocking.</li>
+<li><strong>Enable DMA protection.</strong> Turn on "Kernel DMA Protection" (Windows) or IOMMU protection (Linux, <code>intel_iommu=on</code> or <code>amd_iommu=on</code>), and be careful with Thunderbolt and USB4 ports and docks that you do not control.</li>
+<li><strong>Disable features you do not use</strong> in firmware: network boot, legacy boot, and unused ports.</li>
+</ul>
+<h3 id="12-protect-against-someone-who-has-had-physical-access">12. Protect against someone who has had physical access</h3>
+<ul>
+<li>Treat an unattended computer as potentially modified ("evil maid"): a person with a few minutes can install a hardware keylogger or tamper with the boot process.</li>
+<li>Never leave your computer unattended in a hotel room, an office, or a shared space if the threat is a determined person with access. If you must, power it off, and consider tamper-evident seals on screws and ports, with photographs taken before you leave.</li>
+<li>Have the computer repaired only by a service you trust, and ideally remove the drive or sign out and erase it first.</li>
+<li>Do not plug in USB devices, cables, or chargers that you did not choose. Use a data-blocking adapter for charging.</li>
+<li>Use a privacy screen filter in public.</li>
+<li>After any period of doubtful custody, check the boot configuration, and if you are not confident, reinstall the operating system from verified media.</li>
+</ul>
+<h3 id="13-separate-sensitive-work">13. Separate sensitive work</h3>
+<ul>
+<li>Use a separate user account, a separate computer, or at minimum a virtual machine for sensitive activity, so that a compromise of your everyday account does not expose it.</li>
+<li>Keep sensitive files in an encrypted container or encrypted folder (for example VeraCrypt, an encrypted disk image, or Cryptomator) that stays closed when you are not using it. Even if the machine is unlocked, a closed container stays encrypted.</li>
+<li>Use a hardware security key for login and for accounts accessed from the machine.</li>
+<li>Check for unfamiliar software, startup items, device-management profiles, remote-access tools, browser extensions, and certificate authorities. Remove what you do not recognize (<a href="23-if-compromised.html">chapter 23</a>).</li>
+</ul>
+<h2 id="high-risk-steps-levels-4-and-5">High-risk steps (levels 4 and 5)</h2>
+<p>These steps add friction. Adopt them only if your threat model needs them, and get advice from a specialist or helpline (<a href="further-reading.html">further reading</a>), because mistakes can create a false sense of security.</p>
+<h3 id="14-use-a-dedicated-minimal-computer-for-sensitive-work">14. Use a dedicated, minimal computer for sensitive work</h3>
+<ul>
+<li>Use a separate, clean computer used only for the sensitive role. Do not sign in to personal accounts on it, and do not use it for casual browsing.</li>
+<li>Install the operating system from verified media, with full-disk encryption from the start, a long passphrase, and the minimal set of programs required.</li>
+<li>Consider a security-focused operating system: a hardened Linux distribution, or Qubes OS, which isolates activities in separate virtual machines. For amnesic sessions that leave no trace on the computer, Tails runs from a USB stick. Each has a learning curve and compatibility costs.</li>
+<li>Buy hardware carefully. Use a reputable retailer, check for signs of tampering, and reinstall the OS immediately instead of trusting a pre-installed image. Prefer hardware that receives firmware updates and supports Secure Boot customization.</li>
+<li>Keep the computer's role narrow, updates current, and the list of installed software short.</li>
+</ul>
+<h3 id="15-reduce-the-attack-surface-further">15. Reduce the attack surface further</h3>
+<ul>
+<li>Use a long unique passphrase for disk encryption that differs from the login password, and avoid biometrics for the disk.</li>
+<li>Where practical, boot from verified firmware and operating system images, with Secure Boot keys you manage yourself. This is advanced and not required for most people.</li>
+<li>Keep encryption keys off the machine: recovery keys and backup keys in a separate safe location.</li>
+<li>Minimize network exposure: turn off services, use a host firewall with default deny, and consider separating networks for sensitive devices (<a href="13-home-and-devices.html">chapter 13</a>).</li>
+<li>Use isolated virtual machines for opening untrusted documents, and a separate one for browsing.</li>
+<li>Do not rely on antivirus as a defense against targeted attacks. Rely on updates, isolation, and minimal software.</li>
+</ul>
+<h3 id="16-plan-for-loss-seizure-and-wiping">16. Plan for loss, seizure, and wiping</h3>
+<ul>
+<li>Assume that a device that leaves your sight may be examined (<a href="19-device-seizure.html">chapter 19</a>). Carry only what you need, and keep recovery keys elsewhere.</li>
+<li>Learn how to power off the computer quickly, and keep it powered off when you cross a border or leave it unattended.</li>
+<li>Understand how to securely retire a computer: for encrypted drives, erasing the encryption key (cryptographic erase) combined with a factory reset is fast and reliable. For unencrypted drives, a normal delete does not remove data, and overwriting is unreliable on solid-state drives; the dependable answers are encryption from the start and physical destruction at the end.</li>
+<li>Do not wipe, delete, or destroy data you are legally required to keep, or after you know that you are the subject of an investigation or dispute. Speak to a lawyer first.</li>
+</ul>
+<h2 id="selling-recycling-or-giving-away">Selling, recycling, or giving away</h2>
+<ul>
+<li>Back up what you need, then sign out of all accounts, remove the device from your cloud accounts, and deauthorize licenses.</li>
+<li>Use the built-in reset with encryption enabled ("Reset this PC" with data removal on Windows; "Erase All Content and Settings" or Erase Assistant on macOS; for Linux, erase the LUKS header or overwrite the key slots, then reinstall).</li>
+<li>For drives that held sensitive data and were not encrypted, destroy them physically.</li>
+</ul>
+<h2 id="work-and-school-devices">Work and school devices</h2>
+<ul>
+<li>Assume an employer or school device is monitored, and that the administrator can read files, see browsing, install software, and wipe the device.</li>
+<li>Do not use it for personal accounts, medical research, or job searches.</li>
+<li>Use your own device for private activity, and do not install work management software on it unless required.</li>
+<li>Check the acceptable-use policy to learn what is monitored.</li>
+</ul>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<ul>
+<li><strong>A computer that is on and unlocked.</strong> Disk encryption does not protect against malware, a stolen session, or someone who sits down at your unlocked computer.</li>
+<li><strong>Sleep and hibernate states.</strong> Keys can remain in memory, and some attacks (cold-boot and DMA) can recover them. Shut down when it matters.</li>
+<li><strong>Compelled disclosure.</strong> If the law lets an authority require your passphrase, encryption does not stop that (<a href="19-device-seizure.html">chapter 19</a>).</li>
+<li><strong>Weak passphrases.</strong> A short or guessable one lets an attacker brute-force an encrypted disk.</li>
+<li><strong>Hardware implants and compromised firmware.</strong> A skilled adversary with physical access, or a tampered supply chain, may defeat software protections. Higher threat levels reduce but do not eliminate this risk.</li>
+<li><strong>Keyloggers.</strong> Hardware or software keyloggers capture the passphrase when you type it.</li>
+<li><strong>Telemetry and managed devices.</strong> The vendor still receives some data, and a managed device remains under someone else's control.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<p><strong>Baseline</strong></p>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>OS, firmware, browser, and software update automatically; the OS is still supported.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Full-disk encryption is on, and the recovery key is stored safely and away from the computer.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>A strong, unique login passphrase; the screen locks quickly.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Daily use under a standard account.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Firewall, Secure Boot, and built-in malware protection are on.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Remote access and file sharing are off unless needed.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Software comes only from official sources; unused programs and extensions removed.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>An encrypted backup, with a copy that is disconnected.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Telemetry and privacy settings reviewed; the webcam covered or controlled.</span></label></li>
+</ul>
+<p><strong>Elevated</strong></p>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>Firmware password set; boot from external media disabled; pre-boot PIN or passphrase required.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>DMA protection is on; ports and docks are controlled.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Computer is never left unattended in doubtful places; tamper-evident measures where needed.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Sensitive files are in closed encrypted containers or a separate account or machine.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Hardware key for sign-in where supported.</span></label></li>
+</ul>
+<p><strong>High risk</strong></p>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>A dedicated, minimal computer or isolated environment for sensitive work.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Hardware bought and installed carefully; OS installed from verified media.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>Separate disk passphrase; recovery keys stored apart.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>A plan for loss, seizure, and secure retirement of the machine, agreed with a lawyer or helpline where needed.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="09-phones.html">&larr; 09. Phones</a><a class="next" href="11-files-cloud-backups.html">11. Files, cloud, and backups &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

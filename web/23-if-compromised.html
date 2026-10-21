@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>23. If compromised | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html">09. Phones</a></li><li><a href="10-computers.html">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html">17. Targeted threats</a></li><li><a href="18-compartments.html">18. Compartments</a></li><li><a href="19-device-seizure.html">19. Device seizure</a></li><li><a href="20-metadata.html">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html" aria-current="page">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>23. If compromised</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#everyday-takeover-or-targeted-intrusion">Everyday takeover or targeted intrusion?</a></li><li><a href="#steps">Steps</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>People who think that more than a single account has been compromised: that a device may have spyware, that someone has persistent access to their accounts or location, or that they are being targeted. For a single hacked account, start with <a href="16-account-takeover.html">chapter 16</a>.</p>
+<p>This chapter is general guidance and not a substitute for professional help; see the <a href="disclaimer.html">disclaimer</a>.</p>
+<p>Your safety comes first. If the person who may be watching you could react with violence or retaliation, do not make changes that alert them before you have a safety plan and support.</p>
+<h2 id="everyday-takeover-or-targeted-intrusion">Everyday takeover or targeted intrusion?</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>Everyday account takeover</th>
+<th>Targeted intrusion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Typical cause</strong></td>
+<td>Breach, reused password, phishing, SIM swap</td>
+<td>Spyware, stalkerware, persistent access by someone near you, or a capable adversary</td>
+</tr>
+<tr>
+<td><strong>Scope</strong></td>
+<td>One or a few accounts</td>
+<td>Devices, many accounts, location, microphone, messages</td>
+</tr>
+<tr>
+<td><strong>Duration</strong></td>
+<td>Short, then the attacker moves on</td>
+<td>Ongoing</td>
+</tr>
+<tr>
+<td><strong>Signs</strong></td>
+<td>Password resets, lockouts, fraudulent messages and purchases</td>
+<td>Abnormal battery drain or heat, unexpected data use, devices behaving oddly, an adversary who knows things they should not, unknown apps or profiles, sudden changes after physical access</td>
+</tr>
+<tr>
+<td><strong>Response</strong></td>
+<td>Reset, revoke, recover (<a href="16-account-takeover.html">chapter 16</a>)</td>
+<td>The steps below, with help</td>
+</tr>
+</tbody>
+</table></div>
+<p>Signs of targeted intrusion are not proof. Battery problems and glitches have ordinary causes. The strongest sign is an adversary acting on private information that only a compromise or a close contact could explain.</p>
+<h2 id="steps">Steps</h2>
+<h3 id="1-pause-and-plan">1. Pause and plan</h3>
+<ul>
+<li>Write down what you have noticed and when. Keep notes offline or on a device you trust.</li>
+<li>Do not confront the suspected person or tell anyone who may be connected to them.</li>
+<li>Identify a safe device and location. Use a device the suspect has never touched, ideally bought recently, and a network they do not control, such as a library or a friend's connection.</li>
+<li>Contact a support organization (see <a href="further-reading.html">further reading</a>) if you may be in danger or are at risk from a partner, family member, or employer.</li>
+</ul>
+<h3 id="2-secure-accounts-from-the-safe-device">2. Secure accounts from the safe device</h3>
+<ul>
+<li>Change the passwords on your email first, then cloud, banking, and messaging, using new random passwords from a password manager on the safe device.</li>
+<li>Turn on strong 2FA, and sign out of all other sessions.</li>
+<li>Review recovery emails, numbers, forwarding rules, connected apps, and linked devices.</li>
+<li>Remove shared access, and review shared accounts and family plans (<a href="14-households.html">chapter 14</a>).</li>
+<li>Do not do this from the suspect device. They may be able to see what you type.</li>
+</ul>
+<h3 id="3-check-devices">3. Check devices</h3>
+<ul>
+<li><strong>Updates:</strong> install all operating system and app updates.</li>
+<li><strong>Unknown apps and profiles:</strong> look for apps you did not install, device-management profiles, and unusual accessibility, administrator, or VPN configurations. Remove them.</li>
+<li><strong>Permissions:</strong> review which apps hold location, microphone, camera, and accessibility access.</li>
+<li><strong>Built-in checks:</strong> use your platform's security checkup and safety features. Some phones offer a safety check to review shared access, and some offer a high-security mode.</li>
+<li><strong>Security scan:</strong> a reputable scanner may find known stalkerware, but it cannot find everything, and a scan can alert whoever is watching.</li>
+<li><strong>Physical checks:</strong> look for trackers in bags, cars, and belongings, using your phone's tracker-detection alerts, and check for unfamiliar devices at home (<a href="13-home-and-devices.html">chapter 13</a>).</li>
+</ul>
+<h3 id="4-decide-clean-or-replace">4. Decide: clean or replace</h3>
+<ul>
+<li><strong>Factory reset</strong> removes most consumer-grade spyware, if you set the device up as new and do not restore from a backup that contains the infection. Restore data selectively, not through full backup.</li>
+<li><strong>Replace the device</strong> if the threat is serious, if you cannot be sure, or if the device is old and out of support. Buy it and set it up without signing in to old accounts until they are secured.</li>
+<li>Treat the removed device as evidence if you may take legal action. Talk to an advocate or lawyer before wiping it. Wiping can destroy proof, but your safety and ability to communicate safely matter first.</li>
+</ul>
+<h3 id="5-document-and-report">5. Document and report</h3>
+<ul>
+<li>Keep dated notes, screenshots, and logs of incidents, suspicious messages, and changes. Store them somewhere the suspect cannot access.</li>
+<li>Report to the platform, and to law enforcement where that is safe and useful. Sources such as victim-support organizations can explain what evidence to keep.</li>
+</ul>
+<h3 id="6-get-help">6. Get help</h3>
+<p>Seek out people with experience:</p>
+<ul>
+<li><strong>Digital-security helplines</strong> for journalists, activists, and civil-society groups, which offer free incident help (see <a href="further-reading.html">further reading</a>).</li>
+<li><strong>Domestic-abuse and stalking support services,</strong> which understand technology-facilitated abuse and can help with safety planning.</li>
+<li><strong>A lawyer,</strong> where legal process, evidence, or employment is involved.</li>
+<li><strong>Your employer's security team,</strong> only if the employer is not the adversary.</li>
+</ul>
+<h3 id="7-afterward">7. Afterward</h3>
+<ul>
+<li>Move to a stronger baseline: unique passwords, hardware keys, updates, device encryption, and separate compartments (<a href="18-compartments.html">chapter 18</a>).</li>
+<li>Reassess your threat model (<a href="02-threat-models.html">chapter 02</a>).</li>
+<li>Tell contacts who may have been exposed.</li>
+<li>Review regularly. If problems return, assume that something was missed and seek expert help.</li>
+</ul>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<ul>
+<li>You may never learn how the intrusion happened.</li>
+<li>A capable adversary can compromise a clean device again. Habits and separation matter more than a single cleanup.</li>
+<li>Technical steps cannot make you physically safe. Use safety planning for that.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>I put safety first and did not alert a suspected watcher before I had a plan.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I secured accounts from a safe device.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I checked and, if needed, reset or replaced devices.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I documented what happened and kept notes safe.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I contacted a helpline, advocate, or lawyer.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="22-travel-and-public-space.html">&larr; 22. Travel and public space</a><a class="next" href="glossary.html">Glossary &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

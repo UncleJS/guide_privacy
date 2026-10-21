@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>15. Data brokers and breaches | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html">09. Phones</a></li><li><a href="10-computers.html">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html" aria-current="page">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html">17. Targeted threats</a></li><li><a href="18-compartments.html">18. Compartments</a></li><li><a href="19-device-seizure.html">19. Device seizure</a></li><li><a href="20-metadata.html">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>15. Data brokers and breaches</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#what-leaks">What leaks</a></li><li><a href="#steps">Steps</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>Everyone. Your information is already in places you did not choose. This chapter covers how to reduce it, limit the harm, and respond when a company leaks it.</p>
+<h2 id="what-leaks">What leaks</h2>
+<ul>
+<li><strong>Data brokers.</strong> Companies that collect names, addresses, phone numbers, relatives, employment, purchases, and inferred interests, and sell them. In some countries, "people search" sites publish them.</li>
+<li><strong>Public records.</strong> Property records, court records, business registrations, and voter files.</li>
+<li><strong>Breaches.</strong> A company you gave data to loses it. Leaked data circulates for years and feeds phishing and identity theft.</li>
+<li><strong>Your own sharing.</strong> Surveys, sweepstakes, warranty cards, and apps that sell your data.</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<h3 id="1-find-out-what-has-leaked">1. Find out what has leaked</h3>
+<ul>
+<li>Check your email addresses and phone numbers against a breach notification service such as Have I Been Pwned, and subscribe to alerts.</li>
+<li>Note which accounts appear, and what was exposed: passwords, payment details, government identifiers, health data.</li>
+</ul>
+<h3 id="2-respond-to-a-breach">2. Respond to a breach</h3>
+<p>Act in this order:</p>
+<ol>
+<li><strong>Passwords.</strong> Change the password on the breached account, and on any other account where you used it. A password manager makes this quick (<a href="03-accounts.html">chapter 03</a>).</li>
+<li><strong>2FA.</strong> Turn it on, and sign out of other sessions.</li>
+<li><strong>Payment details.</strong> If card details were exposed, replace the card (<a href="12-payments.html">chapter 12</a>).</li>
+<li><strong>Identity details.</strong> If government ID numbers, dates of birth, or similar were exposed, consider a credit freeze or fraud alert with the credit bureaus in your country. A freeze is free in many countries and blocks new credit in your name until you lift it.</li>
+<li><strong>Expect phishing.</strong> Attackers use leaked details to write convincing messages. Treat unexpected contact referencing the breach with suspicion, and reach the company through its official site.</li>
+<li><strong>Record.</strong> Keep a note of the date, what was exposed, and what you did.</li>
+</ol>
+<h3 id="3-reduce-what-you-give-out">3. Reduce what you give out</h3>
+<ul>
+<li>Share the minimum that a form requires. Use aliases and a secondary phone number (<a href="04-email.html">chapter 04</a>).</li>
+<li>Do not give your real date of birth, phone number, or address where it is optional and not verified.</li>
+<li>Decline marketing opt-ins, and decline "sell or share my personal information" where the law lets you.</li>
+<li>Ask whether a company needs to store your data, and ask it to delete data you no longer want held.</li>
+</ul>
+<h3 id="4-opt-out-of-data-brokers">4. Opt out of data brokers</h3>
+<ul>
+<li>Look for a list of major brokers in your country and region, and follow each site's opt-out process. Expect to submit your name, address, and a verification email.</li>
+<li>Search for your name, phone number, and address and note what appears. Repeat every few months, because brokers re-add records.</li>
+<li>Use privacy laws where they apply: access, deletion, and opt-out rights exist in the EU and UK (GDPR), California (CCPA/CPRA), and other places. A request for access shows what a company holds.</li>
+<li>Paid "delete me" services can save time. They cover a limited list of brokers, rarely reach all of them, and must be re-run regularly. Compare the list of brokers they cover, check the company's reputation, and note that they need your personal details to work.</li>
+</ul>
+<h3 id="5-reduce-public-exposure">5. Reduce public exposure</h3>
+<ul>
+<li>Check whether your address appears in public records and whether your jurisdiction has a way to suppress it for safety reasons.</li>
+<li>Use a business address or registered agent for business registrations where allowed.</li>
+<li>Review domain registrations and make sure WHOIS privacy is on.</li>
+<li>Search for your name and photo, and ask sites to remove content that harms you.</li>
+</ul>
+<h3 id="6-delete-old-accounts-and-data">6. Delete old accounts and data</h3>
+<ul>
+<li>List services you have used in the last decade. Delete accounts you no longer use, and request deletion of data.</li>
+<li>Use "delete my data" or "right to be forgotten" requests where available.</li>
+</ul>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<ul>
+<li>Data already sold or leaked cannot be recalled. Opt-outs reduce future exposure.</li>
+<li>Brokers add records again from new sources, so this is routine maintenance, not a one-time task.</li>
+<li>Laws differ. Opt-out rights may be unavailable where you live.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>My email addresses are subscribed to a breach alert.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I have a breach response routine (password, 2FA, card, freeze, phishing watch).</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I limit optional information on forms.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I opted out of the main people-search sites in my country, and set a reminder to recheck.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I deleted old accounts I no longer use.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="14-households.html">&larr; 14. Households</a><a class="next" href="16-account-takeover.html">16. Account takeover &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

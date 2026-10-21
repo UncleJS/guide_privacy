@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>19. Device seizure | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html">09. Phones</a></li><li><a href="10-computers.html">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html">17. Targeted threats</a></li><li><a href="18-compartments.html">18. Compartments</a></li><li><a href="19-device-seizure.html" aria-current="page">19. Device seizure</a></li><li><a href="20-metadata.html">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>19. Device seizure</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#what-leaks">What leaks</a></li><li><a href="#how-device-protection-works">How device protection works</a></li><li><a href="#steps-preparation">Steps (preparation)</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>People who may have a phone or laptop searched or taken by an authority, an employer, a border officer, or someone with physical access. This includes travelers, protesters, journalists, and anyone who may be stopped at a checkpoint.</p>
+<p>This chapter explains how device protection works so that you can make informed decisions. It does not advise anyone to hide evidence, destroy data, or obstruct a lawful search. Destroying or concealing data once an investigation is foreseeable can be a crime. Laws differ widely: whether you can be compelled to unlock a device, give a passcode, or use a fingerprint depends on your country and sometimes your status. This chapter is not legal advice (see the <a href="disclaimer.html">disclaimer</a>). Speak to a lawyer familiar with local law, or an organization that supports people in your situation, before you travel or take part in a risky event.</p>
+<h2 id="what-leaks">What leaks</h2>
+<ul>
+<li><strong>Anything stored on the device</strong> that is readable once it is unlocked.</li>
+<li><strong>Signed-in sessions.</strong> Email, cloud, and social apps often stay signed in, giving access beyond the device.</li>
+<li><strong>Contacts, messages, call logs, photos, location history.</strong></li>
+<li><strong>Network and app data</strong> that shows other people you have been in touch with.</li>
+<li><strong>Cloud backups</strong> that contain what the device does.</li>
+<li><strong>Other people's data</strong> on your device, which exposes the people you know.</li>
+</ul>
+<h2 id="how-device-protection-works">How device protection works</h2>
+<ul>
+<li><strong>Powered-off and locked devices.</strong> Full-disk or file-based encryption protects data when the device is off or has just started, before you enter the passcode. This is the strongest state.</li>
+<li><strong>Locked while on.</strong> After first unlock, some keys remain in memory. Forensic tools can sometimes extract data from a device that was unlocked once since power-on, depending on the model, software version, and tool. Keeping the device updated closes known weaknesses.</li>
+<li><strong>Unlocked.</strong> Everything is readable.</li>
+<li><strong>Passcodes versus biometrics.</strong> A passcode that you know is typically harder for others to compel in some legal systems than a fingerprint or face, which can be applied physically. In other systems both can be compelled. Know your local rule.</li>
+<li><strong>Lockdown features.</strong> Some phones offer a quick way to disable biometrics (a button combination) and require the passcode on the next unlock. Some also offer a high-security mode that reduces the attack surface. Learn what your phone provides.</li>
+</ul>
+<h2 id="steps-preparation">Steps (preparation)</h2>
+<h3 id="1-decide-what-travels-with-you">1. Decide what travels with you</h3>
+<ul>
+<li>Carry only what you need. The most reliable way to protect data is not to have it on the device.</li>
+<li>Consider a separate travel or event device with minimal data (<a href="22-travel-and-public-space.html">chapter 22</a>).</li>
+<li>Keep sensitive material in encrypted storage that you can access later, rather than on the device, if the law and your situation allow it. Note that being asked to provide access to it can still happen.</li>
+</ul>
+<h3 id="2-harden-the-device">2. Harden the device</h3>
+<ul>
+<li>Update the device and apps before travel or an event.</li>
+<li>Use a long alphanumeric passcode rather than a short PIN.</li>
+<li>Turn on full-disk or device encryption, and confirm it is active.</li>
+<li>Set the lock to engage quickly, and hide notifications on the lock screen.</li>
+<li>Learn the lockdown or "emergency" feature of your phone, and when you would use it.</li>
+<li>Review signed-in sessions. A device that has not been signed in to sensitive accounts exposes less.</li>
+</ul>
+<h3 id="3-know-the-rules">3. Know the rules</h3>
+<ul>
+<li>Research the rules at your destination and at the border you will cross: what officers can ask for, what you must provide, and what your rights are.</li>
+<li>Know the difference between your own citizen or resident status and a visitor's.</li>
+<li>Ask a lawyer or advocacy group for current guidance.</li>
+</ul>
+<h3 id="4-plan-for-contacts">4. Plan for contacts</h3>
+<ul>
+<li>Messages and contacts expose other people. Use disappearing messages for sensitive chats as a normal habit, not a last-minute step (<a href="07-messaging.html">chapter 07</a>).</li>
+<li>Tell the people who matter about your plans, and agree on how they will know if you are detained.</li>
+</ul>
+<h3 id="5-if-your-device-is-taken">5. If your device is taken</h3>
+<ul>
+<li>Stay calm and polite, and do not obstruct or lie to officers. Ask whether you are being detained and whether you are free to go.</li>
+<li>Ask for the legal basis, a receipt for items taken, and the officer's identification.</li>
+<li>Do not volunteer information. Say that you want to speak to a lawyer.</li>
+<li>After release, treat the device as compromised. Do not reuse it without wiping and reinstalling it, and change passwords for accounts that were signed in, from a different device.</li>
+<li>Tell the people who may be affected that your device was taken.</li>
+</ul>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<ul>
+<li>Encryption does not help if you are compelled to unlock the device and the law allows that.</li>
+<li>Data in the cloud can be reached through the provider by legal process, regardless of device state.</li>
+<li>Anything stored on a device in a form an examiner can read, once unlocked, is exposed. Forensic tools vary and change quickly.</li>
+<li>Preparing a device cannot protect the people whose details are in it.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>I know the local rules on compelled unlocking and searches.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>My device is updated, encrypted, and protected by a strong passcode.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I know how to use my phone's lockdown or quick-lock feature.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I carry only what I need, and I have a lawyer or helpline contact.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I have a plan for what happens if the device is taken.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="18-compartments.html">&larr; 18. Compartments</a><a class="next" href="20-metadata.html">20. Metadata &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

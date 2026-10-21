@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02. Threat models | Online Privacy Guide</title>
+<meta name="description" content="A practical guide to protecting your privacy online, from everyday habits to higher-risk situations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1419'/%3E%3Cpath d='M16 5l9 3v7c0 6-4 10-9 12-5-2-9-6-9-12V8z' fill='%235aa9ff'/%3E%3C/svg%3E">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('privacy-guide-theme');
+    if (t === 'light' || t === 'dark') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  <a class="site-title" href="index.html">Online Privacy Guide</a>
+  <button class="icon-btn" id="theme-toggle" type="button">Light mode</button>
+</header>
+<div class="disclaimer-bar">Read the <a href="disclaimer.html">Disclaimer and Limitation of Liability</a> before using this guide. General information only; not legal or professional security advice.</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Guide contents">
+<h2>Start</h2><ul><li><a href="index.html">Home</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="00-how-to-read.html">00. How to read this guide</a></li><li><a href="01-privacy-security-anonymity.html">01. Privacy, security, and anonymity</a></li><li><a href="02-threat-models.html" aria-current="page">02. Threat models</a></li></ul>
+<h2>Everyday</h2><ul><li><a href="03-accounts.html">03. Accounts</a></li><li><a href="04-email.html">04. Email</a></li><li><a href="05-browsers.html">05. Browsers</a></li><li><a href="06-search-dns-network.html">06. Search, DNS, and network</a></li><li><a href="07-messaging.html">07. Messaging</a></li><li><a href="08-social-media.html">08. Social media</a></li><li><a href="09-phones.html">09. Phones</a></li><li><a href="10-computers.html">10. Computers and computer security</a></li><li><a href="11-files-cloud-backups.html">11. Files, cloud, and backups</a></li><li><a href="12-payments.html">12. Payments</a></li><li><a href="13-home-and-devices.html">13. Home and devices</a></li><li><a href="14-households.html">14. Households</a></li><li><a href="15-data-brokers-and-breaches.html">15. Data brokers and breaches</a></li><li><a href="16-account-takeover.html">16. Account takeover</a></li></ul>
+<h2>Higher-risk</h2><ul><li><a href="17-targeted-threats.html">17. Targeted threats</a></li><li><a href="18-compartments.html">18. Compartments</a></li><li><a href="19-device-seizure.html">19. Device seizure</a></li><li><a href="20-metadata.html">20. Metadata</a></li><li><a href="21-anonymity-tools.html">21. Anonymity tools</a></li><li><a href="22-travel-and-public-space.html">22. Travel and public space</a></li><li><a href="23-if-compromised.html">23. If compromised</a></li></ul>
+<h2>Reference</h2><ul><li><a href="glossary.html">Glossary</a></li><li><a href="further-reading.html">Further reading</a></li><li><a href="license.html">License</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>02. Threat models</h1>
+<details class="page-toc" open><summary>On this page</summary><ul><li><a href="#who-this-is-for">Who this is for</a></li><li><a href="#the-five-questions">The five questions</a></li><li><a href="#common-adversaries">Common adversaries</a></li><li><a href="#risk-levels">Risk levels</a></li><li><a href="#write-yours-down">Write yours down</a></li><li><a href="#what-this-does-not-fix">What this does not fix</a></li><li><a href="#checklist">Checklist</a></li></ul></details>
+<h2 id="who-this-is-for">Who this is for</h2>
+<p>Everyone, before buying or installing anything. A threat model is a short written answer to five questions. It keeps your effort aimed at risks you actually face.</p>
+<h2 id="the-five-questions">The five questions</h2>
+<ol>
+<li><strong>What am I protecting?</strong> Messages, location, identity, finances, photos, health information, a relationship, a job.</li>
+<li><strong>Who might want it?</strong> See the adversary list below.</li>
+<li><strong>How likely is that, and how bad would it be?</strong> Rare but severe risks and common but mild ones need different responses.</li>
+<li><strong>How hard will it be to protect against?</strong> Include inconvenience. A measure you abandon protects nothing.</li>
+<li><strong>What am I willing to give up?</strong> Convenience, money, time, sharing with friends.</li>
+</ol>
+<h2 id="common-adversaries">Common adversaries</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Adversary</th>
+<th>What they want</th>
+<th>Typical capability</th>
+<th>Where to look</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Advertisers and data brokers</strong></td>
+<td>Profiles to sell or target ads</td>
+<td>Trackers, apps, purchased data</td>
+<td>Chapters 05, 06, 08, 09, 15</td>
+</tr>
+<tr>
+<td><strong>Platforms and service providers</strong></td>
+<td>Data to run and monetize the service</td>
+<td>Everything you do on their service</td>
+<td>Chapters 04, 07, 08, 11</td>
+</tr>
+<tr>
+<td><strong>Criminals</strong></td>
+<td>Money, accounts, identity</td>
+<td>Phishing, credential stuffing, SIM swapping, malware</td>
+<td>Chapters 03, 16</td>
+</tr>
+<tr>
+<td><strong>Thieves and finders</strong></td>
+<td>Hardware, and any data on it</td>
+<td>Physical access to a lost or stolen device</td>
+<td>Chapters 09, 10</td>
+</tr>
+<tr>
+<td><strong>People you know</strong></td>
+<td>Access to your accounts, devices, or location</td>
+<td>Physical access, shared passwords, shared accounts</td>
+<td>Chapters 09, 10, 14</td>
+</tr>
+<tr>
+<td><strong>Employers and schools</strong></td>
+<td>Monitoring of work or school activity</td>
+<td>Managed devices and accounts</td>
+<td>Chapter 10</td>
+</tr>
+<tr>
+<td><strong>Governments and law enforcement</strong></td>
+<td>Evidence or intelligence</td>
+<td>Legal process, device seizure, network surveillance, malware (for a small number of targets)</td>
+<td>Chapters 17 to 23</td>
+</tr>
+<tr>
+<td><strong>Harassers and stalkers</strong></td>
+<td>Your location, identity, or distress</td>
+<td>Public records, social media, doxxing</td>
+<td>Chapters 08, 15, 18</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="risk-levels">Risk levels</h2>
+<p>Pick the level that best fits today. Levels are cumulative: each one includes everything in the levels below it. You can move between levels as your situation changes, and you can sit at different levels for different parts of your life (for example, level 2 for shopping and level 4 for a sensitive project).</p>
+<h3 id="overview">Overview</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Name</th>
+<th>Who is trying to get at you</th>
+<th>Typical person</th>
+<th>Where to start</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Unprepared</td>
+<td>Anyone, and nothing stops them</td>
+<td>Default settings, reused passwords, no updates</td>
+<td>Chapters 03 and 10 first</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Baseline</td>
+<td>Opportunistic criminals, scams, trackers</td>
+<td>Most people who do the basics</td>
+<td>Chapters 03 to 10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Careful</td>
+<td>Data brokers, advertisers, thieves who take a device</td>
+<td>People who want less exposure and protection if a laptop or phone is lost</td>
+<td>Chapters 03 to 16</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Elevated</td>
+<td>One person or group with some access or motive</td>
+<td>Someone with a controlling ex-partner, a monitoring employer, or a persistent harasser</td>
+<td>Chapters 03 to 16, then 17 and 18</td>
+</tr>
+<tr>
+<td>4</td>
+<td>High</td>
+<td>Organized, patient adversaries who target you by name</td>
+<td>Journalists, lawyers, activists, executives, security researchers, people leaving dangerous situations</td>
+<td>All of Part 1, then Part 2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Severe</td>
+<td>Well-resourced adversaries with legal power or advanced tools</td>
+<td>People in conflict zones, under authoritarian governments, or targeted by organized crime</td>
+<td>Part 1 and Part 2, plus expert help</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Extreme</td>
+<td>Nation-state level, with custom exploits and physical access</td>
+<td>A very small number of people</td>
+<td>Expert help; this guide is a starting point only</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="what-each-level-means">What each level means</h3>
+<p><strong>Level 0: Unprepared.</strong> Default settings, reused passwords, outdated software, unencrypted devices. Anyone with a leaked password list, a stolen laptop, or a convincing phishing message can get in. Most people start here. Fix it with the account and computer basics (<a href="03-accounts.html">chapter 03</a>, <a href="10-computers.html">chapter 10</a>).</p>
+<p><strong>Level 1: Baseline.</strong> You block the common, automated attacks. Unique passwords in a password manager, 2FA, automatic updates, disk encryption turned on, a firewall, and a browser that blocks trackers. This stops most scams and breaches from becoming disasters.</p>
+<p><strong>Level 2: Careful.</strong> You also reduce the data that leaks by design and limit the damage from losing a device. You review app permissions, use aliases, opt out of data brokers, keep encrypted backups, use a standard (non-administrator) account day to day, and set a firmware or boot password where the machine supports it. A stolen, powered-off laptop reveals nothing.</p>
+<p><strong>Level 3: Elevated.</strong> Someone you know, an employer, or a persistent harasser may try to learn about you. You are not a target of a state, but a single person with some access is a real concern. You assume that someone may have had physical access to a device, so you distrust old devices and shared accounts. You use separate devices or accounts for sensitive activity, hardware security keys on your key accounts, and you check for monitoring software (<a href="14-households.html">chapter 14</a>, <a href="23-if-compromised.html">chapter 23</a>). Read <a href="17-targeted-threats.html">chapter 17</a> and <a href="18-compartments.html">chapter 18</a>.</p>
+<p><strong>Level 4: High.</strong> Someone competent will spend time targeting you specifically with tailored phishing, impersonation, legal pressure, or surveillance of your contacts. You work from a threat model written for a named adversary. You use hardware keys everywhere, compartmentalized identities and devices, a dedicated clean computer for sensitive work, locked-down boot settings, encrypted storage that stays closed when not in use, and a plan for device seizure and travel (<a href="17-targeted-threats.html">chapters 17 to 22</a>). You have a helpline and a lawyer you can reach.</p>
+<p><strong>Level 5: Severe.</strong> The adversary can use legal process, network-level surveillance, or advanced tools, and mistakes can be costly. You use tightly controlled devices that only run what you need, purpose-built operating systems, isolated virtual machines or separate hardware for each role, verified downloads, firmware protections, and strict operational habits. Technical measures are only part of it: you need ongoing guidance from an organization or a specialist, because the situation changes and a single mistake can matter (<a href="further-reading.html">further reading</a>).</p>
+<p><strong>Level 6: Extreme.</strong> The adversary can buy or build custom exploits, intercept supply chains, and has physical access. No individual can reliably stop this with consumer tools. If you believe you are here, the most important step is to talk to a specialist before relying on any advice in this guide, because some choices that help at lower levels (such as carrying a device you cannot replace) can hurt at this one. Use this guide to raise the cost of attack and to avoid easy mistakes, and treat devices that may have been exposed as compromised.</p>
+<h3 id="computer-security-by-level">Computer security by level</h3>
+<p>Computers are the single most valuable target, because they hold your data and the keys to your accounts. This table summarizes the computer measures that <a href="10-computers.html">chapter 10</a> explains in detail.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Disk encryption</th>
+<th>Sign-in and accounts</th>
+<th>Updates and software</th>
+<th>Boot and firmware</th>
+<th>Backups and physical</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Off</td>
+<td>Shared or no password, always administrator</td>
+<td>Ignored</td>
+<td>Defaults</td>
+<td>None</td>
+</tr>
+<tr>
+<td>1</td>
+<td>On, recovery key saved safely</td>
+<td>Strong login password, auto-lock</td>
+<td>Automatic updates, official sources only</td>
+<td>Defaults</td>
+<td>One encrypted backup</td>
+</tr>
+<tr>
+<td>2</td>
+<td>On, with a strong passphrase; shut down (not just sleep) when traveling</td>
+<td>Standard account for daily use, separate admin account, password manager</td>
+<td>Remove unused software, built-in firewall on</td>
+<td>Firmware password or setup password where available; Secure Boot on</td>
+<td>3-2-1 backups, one offline</td>
+</tr>
+<tr>
+<td>3</td>
+<td>On, recovery key not stored in the same cloud account as the sign-in</td>
+<td>Separate account or device for sensitive work, hardware key for login where supported</td>
+<td>Check for unfamiliar software, profiles, and remote-access tools; reinstall if in doubt</td>
+<td>Secure Boot with a firmware password; disable unneeded boot options</td>
+<td>Physical lock or tamper-evident storage; trusted repair only</td>
+</tr>
+<tr>
+<td>4</td>
+<td>On, with a long passphrase and a pre-boot unlock; no biometrics for the disk</td>
+<td>Dedicated clean computer for sensitive work, hardware keys everywhere</td>
+<td>Minimal, verified software; managed update cadence</td>
+<td>Measured or verified boot, firmware updates from the vendor, disabled external boot</td>
+<td>Tamper-evident seals, separate travel computer, encrypted volumes for sensitive files</td>
+</tr>
+<tr>
+<td>5</td>
+<td>On, with a strong passphrase and a separate hidden or removable key where law allows</td>
+<td>Separate machines or isolated virtual machines for each role, no shared accounts</td>
+<td>Hardened, security-focused OS; verified downloads; strict allowlist</td>
+<td>Verified boot with your own keys where practical; firmware protections</td>
+<td>Assume loss; no sensitive data left unattended; supply-chain care when buying</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Not enough alone</td>
+<td>Expert-designed</td>
+<td>Expert-designed</td>
+<td>Expert-designed</td>
+<td>Expert-designed</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="write-yours-down">Write yours down</h2>
+<p>A model can be short:</p>
+<blockquote>
+<p>I protect my email, photos, and location history. The main risks are criminals and advertisers. My ex-partner knew my old passwords. I will accept some inconvenience for login security but not for messaging.</p>
+</blockquote>
+<p>Revisit it when your life changes: a new job, a move, a breakup, public attention, or travel.</p>
+<h2 id="what-this-does-not-fix">What this does not fix</h2>
+<p>A threat model does not reduce risk by itself. It directs your effort, and it is imperfect: you will miss some risks. Revisit it after any incident.</p>
+<h2 id="checklist">Checklist</h2>
+<ul>
+<li class="task"><label><input type="checkbox"> <span>I wrote a short threat model in my own words.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I chose a risk level (0 to 6) for each part of my life that matters.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I know what my computer should look like at that level.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I know which chapters apply to that level.</span></label></li>
+<li class="task"><label><input type="checkbox"> <span>I have a date to review the model again.</span></label></li>
+</ul>
+<nav class="pager" aria-label="Previous and next page">
+<a class="prev" href="01-privacy-security-anonymity.html">&larr; 01. Privacy, security, and anonymity</a><a class="next" href="03-accounts.html">03. Accounts &rarr;</a>
+</nav>
+</article>
+</main>
+</div>
+<footer class="site-footer">
+<p>© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0 &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="license.html">License</a></p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

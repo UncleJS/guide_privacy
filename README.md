@@ -28,6 +28,7 @@ A practical, plain-English guide to protecting your privacy online. The first pa
 - [Higher-risk chapters](#higher-risk-chapters)
 - [Back matter](#back-matter)
 - [Reading order](#reading-order)
+- [Website](#website)
 - [License](#license)
 
 ## Scope
@@ -115,6 +116,12 @@ flowchart TD
   everyday --> higher["Higher-risk<br/>17 to 23"]
   higher --> back["Back matter"]
 ```
+
+[↑ Back to TOC](#toc)
+
+## Website
+
+The `web/` folder is a ready-to-upload static website version of this guide. Upload its contents to any sub-folder on a web host; no server software is needed. See [tools/README.md](tools/README.md) for publishing and rebuilding.
 
 [↑ Back to TOC](#toc)
 
