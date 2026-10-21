@@ -1,10 +1,29 @@
 # 09. Phones
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Social media](08-social-media.md) | [Home](../README.md) | Next: [Computers](10-computers.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Everyone with a smartphone. Your phone holds your location history, contacts, photos, messages, and the keys to most of your accounts.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -14,6 +33,8 @@ Everyone with a smartphone. Your phone holds your location history, contacts, ph
 - **Backups.** Cloud backups can expose more than the phone itself, depending on encryption.
 - **Lock screen.** Notifications, widgets, and assistant features can display or act on private data.
 - **Carrier.** Your mobile provider knows which towers you connect to, your number, and often your name.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -65,11 +86,15 @@ Review permissions app by app, and by permission type.
 - Report to your carrier to block the SIM.
 - Review account sessions and revoke the lost device.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - The operating system vendor and apps still collect data you permit them to collect.
 - A carrier can locate your phone while it is connected to the network.
 - Spyware installed with physical access or through a malicious link can defeat all of the above. See [chapter 23](23-if-compromised.md).
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -81,6 +106,10 @@ Review permissions app by app, and by permission type.
 - [ ] Carrier PIN and port-out protection set.
 - [ ] Lost-phone plan ready.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Social media](08-social-media.md) | [Home](../README.md) | Next: [Computers](10-computers.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

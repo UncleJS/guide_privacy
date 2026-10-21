@@ -1,10 +1,29 @@
 # 12. Payments
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Files, cloud, and backups](11-files-cloud-backups.md) | [Home](../README.md) | Next: [Home and devices](13-home-and-devices.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Anyone who pays online or in shops. Payment records reveal where you live, what you buy, your health, your beliefs, and your routines.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -14,6 +33,8 @@ Anyone who pays online or in shops. Payment records reveal where you live, what 
 - **Payment apps.** Some show your transactions to friends by default.
 - **Data brokers.** They buy and combine purchase data.
 - **Shipping.** Your address ends up in many databases.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -61,11 +82,15 @@ Anyone who pays online or in shops. Payment records reveal where you live, what 
 - Replace the card number at every service that stores it. A virtual card makes this easier.
 - Place a fraud alert or credit freeze if your identity information was exposed ([chapter 15](15-data-brokers-and-breaches.md)).
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Banks and card networks must keep records, and they share them under law.
 - Digital payments cannot be fully anonymous.
 - A merchant that needs to ship to you will know your address.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -75,6 +100,10 @@ Anyone who pays online or in shops. Payment records reveal where you live, what 
 - [ ] Payment app transactions set to private.
 - [ ] A plan for shipping to somewhere other than home when needed.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Files, cloud, and backups](11-files-cloud-backups.md) | [Home](../README.md) | Next: [Home and devices](13-home-and-devices.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

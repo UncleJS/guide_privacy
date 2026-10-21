@@ -1,10 +1,29 @@
 # 06. Search, DNS, and network
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Browsers](05-browsers.md) | [Home](../README.md) | Next: [Messaging](07-messaging.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Everyone. Your internet provider, the Wi-Fi network owner, and search engines each see parts of your activity.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -12,6 +31,8 @@ Everyone. Your internet provider, the Wi-Fi network owner, and search engines ea
 - **DNS lookups.** Before connecting to a site, your device asks a DNS resolver for its address. That resolver, usually your internet provider's, sees the names of the sites you visit.
 - **Connection metadata.** Even over HTTPS, your provider sees the destination server's address and the volume and timing of traffic. It does not see page content.
 - **Public Wi-Fi.** The operator can see connection metadata, and a malicious network can try to redirect you to fake pages. HTTPS limits the damage.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -61,10 +82,14 @@ A VPN sends your traffic through an encrypted tunnel to a server run by the VPN 
 
 **If you use one:** choose a provider with a clear no-logs policy backed by independent audits, avoid free VPNs that earn money from your data, and prefer a provider that you can pay for without linking it to your identity if that matters to you. A VPN is a network-privacy tool; treat it that way.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Search engines, DNS resolvers, and VPN providers each see something. You choose who sees it; you do not remove the viewer.
 - None of these steps hide your activity from sites you sign in to.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -74,6 +99,10 @@ A VPN sends your traffic through an encrypted tunnel to a server run by the VPN 
 - [ ] I avoid sensitive tasks on public Wi-Fi.
 - [ ] If I use a VPN, I know what it hides and what it does not.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Browsers](05-browsers.md) | [Home](../README.md) | Next: [Messaging](07-messaging.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

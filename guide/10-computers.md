@@ -1,6 +1,27 @@
 # 10. Computers and computer security
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Phones](09-phones.md) | [Home](../README.md) | Next: [Files, cloud, and backups](11-files-cloud-backups.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Baseline steps](#baseline-steps)
+- [Elevated steps (level 3 and above)](#elevated-steps-level-3-and-above)
+- [High-risk steps (levels 4 and 5)](#high-risk-steps-levels-4-and-5)
+- [Selling, recycling, or giving away](#selling-recycling-or-giving-away)
+- [Work and school devices](#work-and-school-devices)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
@@ -11,6 +32,8 @@ This chapter is organized in three tiers that match the threat levels in [chapte
 - **Baseline (levels 1 and 2):** steps 1 to 10. Do these on every computer.
 - **Elevated (level 3):** steps 11 to 13. Add these if someone with access to your devices, or a determined attacker, is a concern.
 - **High risk (levels 4 and 5):** steps 14 to 16. Add these for targeted threats; read them together with [chapters 17 to 22](17-targeted-threats.md).
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -25,6 +48,8 @@ This chapter is organized in three tiers that match the threat levels in [chapte
 - **Boot and firmware tampering.** Someone with physical access can alter the boot process or hardware to capture your passphrase the next time you type it.
 - **Backups.** An unencrypted backup undoes disk encryption, and a backup that is always connected is encrypted by ransomware along with the original.
 - **Screen and webcam.** Malware or apps can capture them.
+
+[↑ Back to TOC](#toc)
 
 ## Baseline steps
 
@@ -130,6 +155,8 @@ Full-disk encryption protects your files when the computer is off, lost, or stol
 - Cover or disable the webcam when not in use, and review which apps may use the camera and microphone.
 - Eject and encrypt external drives before disposing of them, or physically destroy them.
 
+[↑ Back to TOC](#toc)
+
 ## Elevated steps (level 3 and above)
 
 Use these when someone you know, an employer, or a persistent adversary might get physical access to your computer, or when a thief with time and tools is a realistic concern.
@@ -159,6 +186,8 @@ Use these when someone you know, an employer, or a persistent adversary might ge
 - Use a hardware security key for login and for accounts accessed from the machine.
 - Check for unfamiliar software, startup items, device-management profiles, remote-access tools, browser extensions, and certificate authorities. Remove what you do not recognize ([chapter 23](23-if-compromised.md)).
 
+[↑ Back to TOC](#toc)
+
 ## High-risk steps (levels 4 and 5)
 
 These steps add friction. Adopt them only if your threat model needs them, and get advice from a specialist or helpline ([further reading](further-reading.md)), because mistakes can create a false sense of security.
@@ -187,11 +216,15 @@ These steps add friction. Adopt them only if your threat model needs them, and g
 - Understand how to securely retire a computer: for encrypted drives, erasing the encryption key (cryptographic erase) combined with a factory reset is fast and reliable. For unencrypted drives, a normal delete does not remove data, and overwriting is unreliable on solid-state drives; the dependable answers are encryption from the start and physical destruction at the end.
 - Do not wipe, delete, or destroy data you are legally required to keep, or after you know that you are the subject of an investigation or dispute. Speak to a lawyer first.
 
+[↑ Back to TOC](#toc)
+
 ## Selling, recycling, or giving away
 
 - Back up what you need, then sign out of all accounts, remove the device from your cloud accounts, and deauthorize licenses.
 - Use the built-in reset with encryption enabled ("Reset this PC" with data removal on Windows; "Erase All Content and Settings" or Erase Assistant on macOS; for Linux, erase the LUKS header or overwrite the key slots, then reinstall).
 - For drives that held sensitive data and were not encrypted, destroy them physically.
+
+[↑ Back to TOC](#toc)
 
 ## Work and school devices
 
@@ -199,6 +232,8 @@ These steps add friction. Adopt them only if your threat model needs them, and g
 - Do not use it for personal accounts, medical research, or job searches.
 - Use your own device for private activity, and do not install work management software on it unless required.
 - Check the acceptable-use policy to learn what is monitored.
+
+[↑ Back to TOC](#toc)
 
 ## What this does not fix
 
@@ -209,6 +244,8 @@ These steps add friction. Adopt them only if your threat model needs them, and g
 - **Hardware implants and compromised firmware.** A skilled adversary with physical access, or a tampered supply chain, may defeat software protections. Higher threat levels reduce but do not eliminate this risk.
 - **Keyloggers.** Hardware or software keyloggers capture the passphrase when you type it.
 - **Telemetry and managed devices.** The vendor still receives some data, and a managed device remains under someone else's control.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -239,6 +276,10 @@ These steps add friction. Adopt them only if your threat model needs them, and g
 - [ ] Separate disk passphrase; recovery keys stored apart.
 - [ ] A plan for loss, seizure, and secure retirement of the machine, agreed with a lawyer or helpline where needed.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Phones](09-phones.md) | [Home](../README.md) | Next: [Files, cloud, and backups](11-files-cloud-backups.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

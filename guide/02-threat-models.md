@@ -1,10 +1,31 @@
 # 02. Threat models
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Foundations](https://img.shields.io/badge/part-foundations-blue)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Privacy, security, anonymity](01-privacy-security-anonymity.md) | [Home](../README.md) | Next: [Accounts](03-accounts.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [The five questions](#the-five-questions)
+- [Common adversaries](#common-adversaries)
+- [Risk levels](#risk-levels)
+- [Write yours down](#write-yours-down)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Everyone, before buying or installing anything. A threat model is a short written answer to five questions. It keeps your effort aimed at risks you actually face.
+
+[↑ Back to TOC](#toc)
 
 ## The five questions
 
@@ -13,6 +34,8 @@ Everyone, before buying or installing anything. A threat model is a short writte
 3. **How likely is that, and how bad would it be?** Rare but severe risks and common but mild ones need different responses.
 4. **How hard will it be to protect against?** Include inconvenience. A measure you abandon protects nothing.
 5. **What am I willing to give up?** Convenience, money, time, sharing with friends.
+
+[↑ Back to TOC](#toc)
 
 ## Common adversaries
 
@@ -26,6 +49,8 @@ Everyone, before buying or installing anything. A threat model is a short writte
 | **Employers and schools** | Monitoring of work or school activity | Managed devices and accounts | Chapter 10 |
 | **Governments and law enforcement** | Evidence or intelligence | Legal process, device seizure, network surveillance, malware (for a small number of targets) | Chapters 17 to 23 |
 | **Harassers and stalkers** | Your location, identity, or distress | Public records, social media, doxxing | Chapters 08, 15, 18 |
+
+[↑ Back to TOC](#toc)
 
 ## Risk levels
 
@@ -73,6 +98,8 @@ Computers are the single most valuable target, because they hold your data and t
 | 5 | On, with a strong passphrase and a separate hidden or removable key where law allows | Separate machines or isolated virtual machines for each role, no shared accounts | Hardened, security-focused OS; verified downloads; strict allowlist | Verified boot with your own keys where practical; firmware protections | Assume loss; no sensitive data left unattended; supply-chain care when buying |
 | 6 | Not enough alone | Expert-designed | Expert-designed | Expert-designed | Expert-designed |
 
+[↑ Back to TOC](#toc)
+
 ## Write yours down
 
 A model can be short:
@@ -81,9 +108,13 @@ A model can be short:
 
 Revisit it when your life changes: a new job, a move, a breakup, public attention, or travel.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 A threat model does not reduce risk by itself. It directs your effort, and it is imperfect: you will miss some risks. Revisit it after any incident.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -93,6 +124,10 @@ A threat model does not reduce risk by itself. It directs your effort, and it is
 - [ ] I know which chapters apply to that level.
 - [ ] I have a date to review the model again.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Privacy, security, anonymity](01-privacy-security-anonymity.md) | [Home](../README.md) | Next: [Accounts](03-accounts.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

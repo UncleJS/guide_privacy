@@ -1,12 +1,31 @@
 # 18. Compartments
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 2: higher-risk](https://img.shields.io/badge/part-2%20higher--risk-orange)](../README.md#higher-risk-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Targeted threats](17-targeted-threats.md) | [Home](../README.md) | Next: [Device seizure](19-device-seizure.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What links identities](#what-links-identities)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 People who need two or more identities kept apart: for example a public name and a private life, a whistleblowing or reporting role, an activist account, a support-group persona, or a safe account used when escaping an abusive situation.
 
 Compartmentalization means keeping identities, devices, and accounts separate so that a problem in one does not expose the others. It reduces risk. It does not make an identity anonymous.
+
+[↑ Back to TOC](#toc)
 
 ## What links identities
 
@@ -26,6 +45,8 @@ Identities usually connect through ordinary details, not clever attacks:
 | **Cloud accounts** | One cloud account backing up both identities' devices |
 
 One slip can join the identities, and the join is usually permanent.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -73,11 +94,15 @@ For each identity, write down:
 - Ask them not to tag, mention, or forward across identities.
 - Remember that their phone books and backups hold your details.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Platforms may link accounts through signals you did not think of, such as device fingerprints, contact uploads, or behavioral patterns.
 - A court order or provider breach can reveal the underlying details.
 - Compartments take discipline. One tired mistake joins them.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -87,6 +112,10 @@ For each identity, write down:
 - [ ] No shared photos, usernames, networks, or contacts between compartments.
 - [ ] I have a plan if an identity is exposed.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Targeted threats](17-targeted-threats.md) | [Home](../README.md) | Next: [Device seizure](19-device-seizure.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

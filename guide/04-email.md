@@ -1,10 +1,29 @@
 # 04. Email
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Accounts](03-accounts.md) | [Home](../README.md) | Next: [Browsers](05-browsers.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Everyone. Email is the master key for password resets, so it is both your most important account and a rich source of data about you.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -13,6 +32,8 @@ Everyone. Email is the master key for password resets, so it is both your most i
 - **Tracking pixels.** Marketing emails embed tiny images that report when you opened the message, your IP address, and your device.
 - **Linkage.** Using one address for every sign-up lets companies and data brokers join your profiles.
 - **Receipts and subscriptions.** Your inbox is a detailed record of your purchases, travel, health, and finances.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -52,11 +73,15 @@ End-to-end encrypted email works best when both sides use the same encrypted pro
 - Send sensitive attachments through an end-to-end encrypted file-sharing service or a messaging app ([chapter 07](07-messaging.md)).
 - OpenPGP works but is difficult to use safely. Consider it only if the recipient already uses it.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Aliases hide your main address, not your identity. The destination service still sees your name, IP address, and behavior.
 - Encrypted providers protect message content. They do not hide the fact that you sent mail, and metadata such as recipients and subject lines may still be visible, depending on the provider.
 - Your recipients can forward, screenshot, or store what you send.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -66,6 +91,10 @@ End-to-end encrypted email works best when both sides use the same encrypted pro
 - [ ] Forwarding rules, connected apps, and signed-in devices reviewed.
 - [ ] A plan for sending sensitive content outside normal email.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Accounts](03-accounts.md) | [Home](../README.md) | Next: [Browsers](05-browsers.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

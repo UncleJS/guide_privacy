@@ -1,10 +1,30 @@
 # 01. Privacy, security, and anonymity
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Foundations](https://img.shields.io/badge/part-foundations-blue)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [How to read](00-how-to-read.md) | [Home](../README.md) | Next: [Threat models](02-threat-models.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [Three different goals](#three-different-goals)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Everyone. Choosing tools without knowing which goal you are pursuing leads to wasted effort and false confidence.
+
+[↑ Back to TOC](#toc)
 
 ## Three different goals
 
@@ -21,6 +41,8 @@ They overlap but are not the same. A few examples of where they diverge:
 - **Private but not secure.** A privacy-friendly service with a weak password protects nothing if someone guesses the password.
 - **Anonymous but not private.** An anonymous account can still be profiled by the platform it posts on.
 
+[↑ Back to TOC](#toc)
+
 ## What leaks
 
 Information leaks through four broad channels:
@@ -32,15 +54,21 @@ Information leaks through four broad channels:
 
 Most of this guide is about reducing channels 1 to 3 and being aware of channel 4.
 
+[↑ Back to TOC](#toc)
+
 ## Steps
 
 1. For each tool or habit you consider, ask which of the three goals it serves.
 2. Name the party you are protecting against (see [chapter 02](02-threat-models.md)).
 3. Prefer measures that serve more than one goal at low cost, such as a password manager (security and privacy) or keeping apps updated (security).
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 Naming the goals does not protect you by itself. It prevents the common mistake of treating a VPN, private browsing window, or "encrypted" label as a cure for a problem it does not address.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -48,6 +76,10 @@ Naming the goals does not protect you by itself. It prevents the common mistake 
 - [ ] I know that encryption of content is not the same as hiding who I talk to.
 - [ ] I will not rely on a single tool to cover all three goals.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [How to read](00-how-to-read.md) | [Home](../README.md) | Next: [Threat models](02-threat-models.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

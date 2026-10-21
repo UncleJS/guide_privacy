@@ -1,10 +1,29 @@
 # 22. Travel and public space
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 2: higher-risk](https://img.shields.io/badge/part-2%20higher--risk-orange)](../README.md#higher-risk-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Anonymity tools](21-anonymity-tools.md) | [Home](../README.md) | Next: [If compromised](23-if-compromised.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 People who travel across borders, attend protests or public events, work from shared spaces, or use shared computers. The focus is on reducing exposure from devices, networks, and records in places you do not control. It does not advise breaking local law.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -15,6 +34,8 @@ People who travel across borders, attend protests or public events, work from sh
 - **Shared computers:** saved passwords, keyloggers, and signed-in sessions.
 - **Public chargers and cables:** a risk for data transfer on some ports.
 - **Hotel and rental rooms:** safes, networks, and televisions are not private.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -70,11 +91,15 @@ People who travel across borders, attend protests or public events, work from sh
 - Change passwords you used on shared devices or untrusted networks.
 - If your device left your sight at a checkpoint, treat it as potentially compromised: reinstall the operating system, or use a clean device, and change important passwords from a trusted one ([chapter 23](23-if-compromised.md)).
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Cell networks and cameras record movement that you cannot hide.
 - A travel device does not protect the accounts you sign in to from it.
 - You cannot know the full range of what a state or service can do. Prepare for the risks that are likely, and get local advice for the rest.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -84,6 +109,10 @@ People who travel across borders, attend protests or public events, work from sh
 - [ ] I avoid shared computers and unknown chargers.
 - [ ] I reviewed my accounts after returning.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Anonymity tools](21-anonymity-tools.md) | [Home](../README.md) | Next: [If compromised](23-if-compromised.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

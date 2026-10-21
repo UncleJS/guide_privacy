@@ -1,10 +1,29 @@
 # 13. Home and devices
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Payments](12-payments.md) | [Home](../README.md) | Next: [Households](14-households.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Anyone with a home network, smart speakers, cameras, a smart TV, or other connected devices.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -14,6 +33,8 @@ Anyone with a home network, smart speakers, cameras, a smart TV, or other connec
 - **Weak security.** Cheap devices ship with default passwords and rarely get updates.
 - **Network exposure.** One compromised device on your network can reach the others.
 - **Neighbors and visitors.** Cameras that cover shared spaces record people who did not agree.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -62,11 +83,15 @@ Anyone with a home network, smart speakers, cameras, a smart TV, or other connec
 
 - Factory reset and remove from your account before selling, recycling, or giving away a device.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Vendors can change features and policies after you buy.
 - Segmenting does not stop a device from sending data to its maker.
 - A camera or microphone you control can still be misused by someone who gets into the account.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -76,6 +101,10 @@ Anyone with a home network, smart speakers, cameras, a smart TV, or other connec
 - [ ] TV tracking and voice-assistant retention reviewed.
 - [ ] Cameras point only at my own space, and housemates know about them.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Payments](12-payments.md) | [Home](../README.md) | Next: [Households](14-households.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

@@ -1,10 +1,29 @@
 # 15. Data brokers and breaches
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Households](14-households.md) | [Home](../README.md) | Next: [Account takeover](16-account-takeover.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Everyone. Your information is already in places you did not choose. This chapter covers how to reduce it, limit the harm, and respond when a company leaks it.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -12,6 +31,8 @@ Everyone. Your information is already in places you did not choose. This chapter
 - **Public records.** Property records, court records, business registrations, and voter files.
 - **Breaches.** A company you gave data to loses it. Leaked data circulates for years and feeds phishing and identity theft.
 - **Your own sharing.** Surveys, sweepstakes, warranty cards, and apps that sell your data.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -57,11 +78,15 @@ Act in this order:
 - List services you have used in the last decade. Delete accounts you no longer use, and request deletion of data.
 - Use "delete my data" or "right to be forgotten" requests where available.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Data already sold or leaked cannot be recalled. Opt-outs reduce future exposure.
 - Brokers add records again from new sources, so this is routine maintenance, not a one-time task.
 - Laws differ. Opt-out rights may be unavailable where you live.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -71,6 +96,10 @@ Act in this order:
 - [ ] I opted out of the main people-search sites in my country, and set a reminder to recheck.
 - [ ] I deleted old accounts I no longer use.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Households](14-households.md) | [Home](../README.md) | Next: [Account takeover](16-account-takeover.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

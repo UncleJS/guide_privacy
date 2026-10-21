@@ -1,10 +1,29 @@
 # 16. Account takeover
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Data brokers and breaches](15-data-brokers-and-breaches.md) | [Home](../README.md) | Next: [Targeted threats](17-targeted-threats.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [Signs of a takeover](#signs-of-a-takeover)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Anyone who suspects that someone else has signed in to one of their accounts, or who has lost access to an account. This is the most common serious incident for individuals. If you suspect something more persistent, such as spyware or a person with ongoing access to your devices, read [chapter 23](23-if-compromised.md) as well.
+
+[↑ Back to TOC](#toc)
 
 ## Signs of a takeover
 
@@ -15,6 +34,8 @@ Anyone who suspects that someone else has signed in to one of their accounts, or
 - Forwarding rules or filters you did not create (email).
 - Friends report strange messages from you.
 - You are suddenly locked out.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -66,10 +87,14 @@ Take a few minutes to learn how it happened, so it does not happen again:
 - Store backup codes safely.
 - Review your recovery options every six months.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Data the attacker saw cannot be unseen. Act as though contacts, messages, and files were read.
 - Some providers cannot restore a deleted account or data.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -80,6 +105,10 @@ Take a few minutes to learn how it happened, so it does not happen again:
 - [ ] Notified contacts, provider, and bank as needed.
 - [ ] Identified the likely cause and fixed it.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Data brokers and breaches](15-data-brokers-and-breaches.md) | [Home](../README.md) | Next: [Targeted threats](17-targeted-threats.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

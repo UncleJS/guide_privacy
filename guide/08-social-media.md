@@ -1,10 +1,29 @@
 # 08. Social media
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Messaging](07-messaging.md) | [Home](../README.md) | Next: [Phones](09-phones.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Anyone with a social account, including accounts you rarely open. Social platforms hold some of the most detailed profiles of you, and they are a main source for doxxing and social-engineering attacks.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -14,6 +33,8 @@ Anyone with a social account, including accounts you rarely open. Social platfor
 - **Other people's posts about you.** Tags, photos, and mentions you did not control.
 - **Linkage.** The same username, photo, or writing style across accounts connects a pseudonymous account to your real one.
 - **Off-platform tracking.** Embedded buttons and tracking pixels report your browsing to the platform even when you are not on it.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -60,11 +81,15 @@ Pseudonyms reduce linkage but do not provide anonymity. To lower the risk:
 - Ask friends and family not to tag you in locations or post your children's identifying details.
 - Use the platform's report tools for impersonation, doxxing, or non-consensual images, and keep records.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Platforms keep data you delete from your profile for a time and may keep it in backups or for other purposes.
 - Screenshots and archives mean anything you posted publicly may exist elsewhere.
 - Private settings do not protect you from the platform itself.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -75,6 +100,10 @@ Pseudonyms reduce linkage but do not provide anonymity. To lower the risk:
 - [ ] I know what I will not post.
 - [ ] I searched for my name signed out.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Messaging](07-messaging.md) | [Home](../README.md) | Next: [Phones](09-phones.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

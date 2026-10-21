@@ -1,10 +1,29 @@
 # 11. Files, cloud, and backups
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Computers](10-computers.md) | [Home](../README.md) | Next: [Payments](12-payments.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Anyone who stores photos, documents, or backups online or on external drives.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -14,6 +33,8 @@ Anyone who stores photos, documents, or backups online or on external drives.
 - **Photo metadata.** Photos carry location, time, and device data.
 - **Forgotten copies.** Old backups, synced folders, and trash bins keep files you thought were deleted.
 - **Third-party apps.** Apps given access to your cloud storage can read everything they are allowed to.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -66,11 +87,15 @@ Use the 3-2-1 rule: three copies, on two kinds of storage, with one off-site.
 - Deleting from a cloud service may not remove the file immediately from backups.
 - Before disposing of a drive, use full-disk encryption from the start; for an unencrypted drive, a standard overwrite is not reliable on solid-state drives. Physical destruction or encrypted-from-the-start storage is the dependable approach.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - A provider that holds encryption keys can read your files if compelled or compromised.
 - Files shared with others stay with them.
 - Metadata (file names, sizes, timestamps, sharing relationships) may remain visible even with end-to-end encrypted storage.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -80,6 +105,10 @@ Use the 3-2-1 rule: three copies, on two kinds of storage, with one off-site.
 - [ ] Photo location tags off, or removed before sharing.
 - [ ] A working encrypted backup following 3-2-1.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Computers](10-computers.md) | [Home](../README.md) | Next: [Payments](12-payments.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

@@ -1,6 +1,26 @@
 # 17. Targeted threats
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 2: higher-risk](https://img.shields.io/badge/part-2%20higher--risk-orange)](../README.md#higher-risk-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Account takeover](16-account-takeover.md) | [Home](../README.md) | Next: [Compartments](18-compartments.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Part 2: higher-risk situations](#part-2-higher-risk-situations)
+- [Who this is for](#who-this-is-for)
+- [Bulk collection versus targeted attention](#bulk-collection-versus-targeted-attention)
+- [Adversary profiles](#adversary-profiles)
+- [Where targeted attacks usually succeed](#where-targeted-attacks-usually-succeed)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Part 2: higher-risk situations
 
@@ -8,9 +28,13 @@ Chapters 17 to 23 are for people who face a specific adversary. They assume that
 
 > **Important:** the guidance in Part 2 is general and may be insufficient for targeted surveillance, stalking, coercion, or other serious threats. Some changes can attract attention or increase risk. Get advice from a qualified security professional or support organization before making changes that could affect your safety. See the [Disclaimer and Limitation of Liability](disclaimer.md).
 
+[↑ Back to TOC](#toc)
+
 ## Who this is for
 
 People who believe or know that a particular person or organization wants information about them: an abusive or controlling partner or ex-partner, an employer, a litigant, a coordinated harasser, or a government. Journalists, human rights defenders, lawyers, activists, and people leaving abusive situations are common examples.
+
+[↑ Back to TOC](#toc)
 
 ## Bulk collection versus targeted attention
 
@@ -22,6 +46,8 @@ People who believe or know that a particular person or organization wants inform
 | **Typical failure** | Convenience wins over settings | A single mistake links your identities or exposes a device |
 
 Most privacy advice defends against bulk collection. Targeted threats require you to choose which adversary you are defending against, because the best defense differs.
+
+[↑ Back to TOC](#toc)
 
 ## Adversary profiles
 
@@ -57,6 +83,8 @@ Most privacy advice defends against bulk collection. Targeted threats require yo
 
 **Priority:** understand what your local law allows, what a provider can hand over, and where your devices are exposed ([chapter 19](19-device-seizure.md), [chapter 20](20-metadata.md)). Get help from an organization that supports people in your situation.
 
+[↑ Back to TOC](#toc)
+
 ## Where targeted attacks usually succeed
 
 - **Human mistakes:** a reused username, a photo taken at home, the same writing style, a lapse in a routine.
@@ -67,6 +95,8 @@ Most privacy advice defends against bulk collection. Targeted threats require yo
 
 Technical exploits against well-maintained devices exist, but they are expensive and used against few people. Human and operational mistakes are far more common.
 
+[↑ Back to TOC](#toc)
+
 ## Steps
 
 1. **Write a specific threat model** ([chapter 02](02-threat-models.md)): who, what they want, what they can do, what happens if they succeed.
@@ -76,11 +106,15 @@ Technical exploits against well-maintained devices exist, but they are expensive
 5. **Build a support network.** Identify a trusted person, a lawyer or advocacy organization, and a digital-security helpline (see [further reading](further-reading.md)).
 6. **Plan for failure.** Decide in advance what you will do if an account or device is compromised ([chapter 23](23-if-compromised.md)).
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - No technical measure replaces physical safety planning or legal advice.
 - A determined adversary with legal power can compel companies, and in some places people, to disclose information.
 - Extra tools add complexity, and complexity causes mistakes. Use as little as your threat model requires.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -89,6 +123,10 @@ Technical exploits against well-maintained devices exist, but they are expensive
 - [ ] I have a plan, a support contact, and a legal or advocacy resource.
 - [ ] I know which chapters in Part 2 apply to me.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Account takeover](16-account-takeover.md) | [Home](../README.md) | Next: [Compartments](18-compartments.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

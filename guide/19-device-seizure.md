@@ -1,12 +1,32 @@
 # 19. Device seizure
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 2: higher-risk](https://img.shields.io/badge/part-2%20higher--risk-orange)](../README.md#higher-risk-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Compartments](18-compartments.md) | [Home](../README.md) | Next: [Metadata](20-metadata.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [How device protection works](#how-device-protection-works)
+- [Steps (preparation)](#steps-preparation)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 People who may have a phone or laptop searched or taken by an authority, an employer, a border officer, or someone with physical access. This includes travelers, protesters, journalists, and anyone who may be stopped at a checkpoint.
 
 This chapter explains how device protection works so that you can make informed decisions. It does not advise anyone to hide evidence, destroy data, or obstruct a lawful search. Destroying or concealing data once an investigation is foreseeable can be a crime. Laws differ widely: whether you can be compelled to unlock a device, give a passcode, or use a fingerprint depends on your country and sometimes your status. This chapter is not legal advice (see the [disclaimer](disclaimer.md)). Speak to a lawyer familiar with local law, or an organization that supports people in your situation, before you travel or take part in a risky event.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -17,6 +37,8 @@ This chapter explains how device protection works so that you can make informed 
 - **Cloud backups** that contain what the device does.
 - **Other people's data** on your device, which exposes the people you know.
 
+[↑ Back to TOC](#toc)
+
 ## How device protection works
 
 - **Powered-off and locked devices.** Full-disk or file-based encryption protects data when the device is off or has just started, before you enter the passcode. This is the strongest state.
@@ -24,6 +46,8 @@ This chapter explains how device protection works so that you can make informed 
 - **Unlocked.** Everything is readable.
 - **Passcodes versus biometrics.** A passcode that you know is typically harder for others to compel in some legal systems than a fingerprint or face, which can be applied physically. In other systems both can be compelled. Know your local rule.
 - **Lockdown features.** Some phones offer a quick way to disable biometrics (a button combination) and require the passcode on the next unlock. Some also offer a high-security mode that reduces the attack surface. Learn what your phone provides.
+
+[↑ Back to TOC](#toc)
 
 ## Steps (preparation)
 
@@ -61,12 +85,16 @@ This chapter explains how device protection works so that you can make informed 
 - After release, treat the device as compromised. Do not reuse it without wiping and reinstalling it, and change passwords for accounts that were signed in, from a different device.
 - Tell the people who may be affected that your device was taken.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Encryption does not help if you are compelled to unlock the device and the law allows that.
 - Data in the cloud can be reached through the provider by legal process, regardless of device state.
 - Anything stored on a device in a form an examiner can read, once unlocked, is exposed. Forensic tools vary and change quickly.
 - Preparing a device cannot protect the people whose details are in it.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -76,6 +104,10 @@ This chapter explains how device protection works so that you can make informed 
 - [ ] I carry only what I need, and I have a lawyer or helpline contact.
 - [ ] I have a plan for what happens if the device is taken.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Compartments](18-compartments.md) | [Home](../README.md) | Next: [Metadata](20-metadata.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

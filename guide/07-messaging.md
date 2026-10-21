@@ -1,10 +1,29 @@
 # 07. Messaging
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Search, DNS, and network](06-search-dns-network.md) | [Home](../README.md) | Next: [Social media](08-social-media.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Everyone who sends messages. Choose the messenger for private conversations deliberately, because switching later means convincing your contacts too.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -13,6 +32,8 @@ Everyone who sends messages. Choose the messenger for private conversations deli
 - **Backups.** An end-to-end encrypted chat can be backed up to a cloud service in a form the provider can read.
 - **Contacts.** Apps that upload your address book expose the people in it.
 - **Notifications and previews.** Message text shown on a lock screen is readable by anyone nearby.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -58,11 +79,15 @@ End-to-end encryption (E2EE) means only the sender and recipient devices can rea
 - Prefer smaller groups for sensitive topics.
 - Ask before adding someone, and ask before sharing someone else's message.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - E2EE does not protect a conversation from the other person, or from a compromised device.
 - A messaging company still knows when your account was created and may know your IP address and contacts.
 - A seized or unlocked phone exposes the stored messages ([chapter 19](19-device-seizure.md)).
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -72,6 +97,10 @@ End-to-end encryption (E2EE) means only the sender and recipient devices can rea
 - [ ] Linked devices reviewed.
 - [ ] Contacts and phone number visibility reviewed.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Search, DNS, and network](06-search-dns-network.md) | [Home](../README.md) | Next: [Social media](08-social-media.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

@@ -1,6 +1,23 @@
 # 23. If compromised
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 2: higher-risk](https://img.shields.io/badge/part-2%20higher--risk-orange)](../README.md#higher-risk-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Travel and public space](22-travel-and-public-space.md) | [Home](../README.md) | Next: [Glossary](glossary.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [Everyday takeover or targeted intrusion?](#everyday-takeover-or-targeted-intrusion)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
@@ -9,6 +26,8 @@ People who think that more than a single account has been compromised: that a de
 This chapter is general guidance and not a substitute for professional help; see the [disclaimer](disclaimer.md).
 
 Your safety comes first. If the person who may be watching you could react with violence or retaliation, do not make changes that alert them before you have a safety plan and support.
+
+[↑ Back to TOC](#toc)
 
 ## Everyday takeover or targeted intrusion?
 
@@ -21,6 +40,8 @@ Your safety comes first. If the person who may be watching you could react with 
 | **Response** | Reset, revoke, recover ([chapter 16](16-account-takeover.md)) | The steps below, with help |
 
 Signs of targeted intrusion are not proof. Battery problems and glitches have ordinary causes. The strongest sign is an adversary acting on private information that only a compromise or a close contact could explain.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -75,11 +96,15 @@ Seek out people with experience:
 - Tell contacts who may have been exposed.
 - Review regularly. If problems return, assume that something was missed and seek expert help.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - You may never learn how the intrusion happened.
 - A capable adversary can compromise a clean device again. Habits and separation matter more than a single cleanup.
 - Technical steps cannot make you physically safe. Use safety planning for that.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -89,6 +114,10 @@ Seek out people with experience:
 - [ ] I documented what happened and kept notes safe.
 - [ ] I contacted a helpline, advocate, or lawyer.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Travel and public space](22-travel-and-public-space.md) | [Home](../README.md) | Next: [Glossary](glossary.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

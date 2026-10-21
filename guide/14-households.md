@@ -1,10 +1,29 @@
 # 14. Households
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Home and devices](13-home-and-devices.md) | [Home](../README.md) | Next: [Data brokers and breaches](15-data-brokers-and-breaches.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 People who share homes, devices, accounts, or plans with partners, family, children, or roommates. This chapter is about protecting your own privacy and respecting other people's, including the privacy of children as they grow. It does not describe how to monitor another adult.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -14,6 +33,8 @@ People who share homes, devices, accounts, or plans with partners, family, child
 - **Billing and statements.** Bills reveal services, medical visits, and subscriptions.
 - **Children's data.** Photos, school information, and app use that a child did not choose to share.
 - **Former partners.** Shared accounts and old devices can keep access after a relationship ends.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -60,10 +81,14 @@ People who share homes, devices, accounts, or plans with partners, family, child
 
 - Use the legacy-contact or inactive-account features of your key services, or record in your password manager how to reach important accounts.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - Group privacy is only as strong as the least careful member.
 - Sharing arrangements are social agreements. Software settings support them but do not replace conversation.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -73,6 +98,10 @@ People who share homes, devices, accounts, or plans with partners, family, child
 - [ ] Children's privacy considered when posting and when choosing apps.
 - [ ] After any relationship change, my own accounts and shared access reviewed.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Home and devices](13-home-and-devices.md) | [Home](../README.md) | Next: [Data brokers and breaches](15-data-brokers-and-breaches.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

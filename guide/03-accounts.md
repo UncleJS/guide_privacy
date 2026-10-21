@@ -1,10 +1,29 @@
 # 03. Accounts
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Threat models](02-threat-models.md) | [Home](../README.md) | Next: [Email](04-email.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Everyone. Account takeover is the most common serious privacy failure, and the fixes are inexpensive.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -12,6 +31,8 @@ Everyone. Account takeover is the most common serious privacy failure, and the f
 - **Phishing.** A convincing fake login page captures your password and often your one-time code.
 - **Weak recovery.** An attacker who cannot guess your password can often reset it through a recovery email, phone number, or security question.
 - **SIM swapping.** Someone persuades your mobile carrier to move your number to their SIM and then receives your SMS codes.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -59,11 +80,15 @@ Start with your primary email account, because it resets everything else.
 - Delete accounts you no longer use. Each one is a future breach.
 - Use "Sign in with" buttons sparingly. They save effort but link your accounts together under one provider.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - A password manager cannot protect you from malware on your device.
 - Two-factor authentication does not stop a provider from reading your data.
 - Passkeys depend on the account that syncs them. Secure that account first.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -75,6 +100,10 @@ Start with your primary email account, because it resets everything else.
 - [ ] Carrier PIN and port-out protection set.
 - [ ] Unused accounts deleted or scheduled for deletion.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Threat models](02-threat-models.md) | [Home](../README.md) | Next: [Email](04-email.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

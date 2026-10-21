@@ -1,10 +1,30 @@
 # 20. Metadata
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 2: higher-risk](https://img.shields.io/badge/part-2%20higher--risk-orange)](../README.md#higher-risk-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Device seizure](19-device-seizure.md) | [Home](../README.md) | Next: [Anonymity tools](21-anonymity-tools.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What metadata is](#what-metadata-is)
+- [Who can see it](#who-can-see-it)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 People whose risk comes from being known to be in contact with someone, or at some place, rather than from what they said. Sources and journalists, lawyers and clients, support-group members, activists, and people leaving abusive situations commonly face this.
+
+[↑ Back to TOC](#toc)
 
 ## What metadata is
 
@@ -19,6 +39,8 @@ Metadata is data about communication and activity, not the content. Examples:
 
 Metadata is revealing because it can be gathered at scale, it is not usually encrypted, and it shows relationships and routines. A pattern of calls to a clinic, a lawyer, or a reporter says a lot without any content.
 
+[↑ Back to TOC](#toc)
+
 ## Who can see it
 
 | Observer | Typically sees |
@@ -30,6 +52,8 @@ Metadata is revealing because it can be gathered at scale, it is not usually enc
 | Network owner (Wi-Fi) | Devices, destinations, timing |
 | Websites and apps | IP address, device details, activity on their service |
 | Another party | Whatever you sent them, including document metadata |
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -75,11 +99,15 @@ Metadata is revealing because it can be gathered at scale, it is not usually enc
 - Say what to do if one of you thinks the channel is compromised.
 - Keep sensitive conversations short and purposeful.
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - A provider that must log, or is compelled to, still has the record.
 - Telephone and mobile-network metadata cannot be hidden from the carrier while the service is used.
 - If the person you contact is exposed, your contact with them is exposed.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -89,6 +117,10 @@ Metadata is revealing because it can be gathered at scale, it is not usually enc
 - [ ] I considered location trails and payment records.
 - [ ] I agreed a protocol with the people involved.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Device seizure](19-device-seizure.md) | [Home](../README.md) | Next: [Anonymity tools](21-anonymity-tools.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0

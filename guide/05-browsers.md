@@ -1,10 +1,29 @@
 # 05. Browsers
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](../LICENSE.md)
+[![Online Privacy Guide](https://img.shields.io/badge/guide-online%20privacy-blue)](../README.md)
+[![Part 1: everyday](https://img.shields.io/badge/part-1%20everyday-brightgreen)](../README.md#everyday-chapters)
+[![Disclaimer](https://img.shields.io/badge/read%20first-disclaimer-red)](disclaimer.md)
+![Last reviewed 2026-10-21](https://img.shields.io/badge/last%20reviewed-2026--10--21-informational)
+
 Previous: [Email](04-email.md) | [Home](../README.md) | Next: [Search, DNS, and network](06-search-dns-network.md)
+
+---
+<a name="toc"></a>
+
+## Table of contents
+
+- [Who this is for](#who-this-is-for)
+- [What leaks](#what-leaks)
+- [Steps](#steps)
+- [What this does not fix](#what-this-does-not-fix)
+- [Checklist](#checklist)
 
 ## Who this is for
 
 Everyone. The browser is where most tracking happens, and a few settings remove a large share of it.
+
+[↑ Back to TOC](#toc)
 
 ## What leaks
 
@@ -13,6 +32,8 @@ Everyone. The browser is where most tracking happens, and a few settings remove 
 - **IP address.** Every site sees it. It reveals approximate location and your internet provider.
 - **Sign-in state.** Being signed in to a large account while you browse lets that company connect the sites you visit to your identity.
 - **Extensions.** An extension can read every page you visit.
+
+[↑ Back to TOC](#toc)
 
 ## Steps
 
@@ -62,11 +83,15 @@ It is useful for avoiding traces on a shared device. It is not a privacy tool fo
 - Avoid adding many extensions or custom fonts.
 - Accept that complete resistance is hard; the Tor Browser is the strongest option, with trade-offs ([chapter 21](21-anonymity-tools.md)).
 
+[↑ Back to TOC](#toc)
+
 ## What this does not fix
 
 - A browser cannot hide your IP address from the sites you visit. See [chapter 06](06-search-dns-network.md).
 - Blocking trackers does not stop a site you are signed in to from recording what you do on it.
 - Malware on your device defeats browser protections.
+
+[↑ Back to TOC](#toc)
 
 ## Checklist
 
@@ -76,6 +101,10 @@ It is useful for avoiding traces on a shared device. It is not a privacy tool fo
 - [ ] Separate profiles for account sign-in and general browsing.
 - [ ] I know what private browsing does not protect.
 
----
+[↑ Back to TOC](#toc)
 
 Previous: [Email](04-email.md) | [Home](../README.md) | Next: [Search, DNS, and network](06-search-dns-network.md)
+
+---
+
+© 2026 UncleJS — Licensed under CC BY-NC-SA 4.0
