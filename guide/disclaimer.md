@@ -8,11 +8,11 @@
 
 This guide is provided for general informational and educational purposes only. It is intended to help readers understand online privacy risks and make informed decisions about protecting their personal information.
 
-The information in this guide does not constitute legal advice, professional cybersecurity advice, or a personalised security assessment. It does not establish a professional, advisory, or client relationship between the reader and the author or publisher.
+The information in this guide does not constitute legal advice, professional cybersecurity advice, or a personalized security assessment. It does not establish a professional, advisory, or client relationship between the reader and the author or publisher.
 
 ### 2. No Guarantee of Privacy or Security
 
-Online privacy and security cannot be guaranteed. No tool, setting, technique, or combination of measures can eliminate every risk of tracking, surveillance, data exposure, unauthorised access, or compromise.
+Online privacy and security cannot be guaranteed. No tool, setting, technique, or combination of measures can eliminate every risk of tracking, surveillance, data exposure, unauthorized access, or compromise.
 
 The effectiveness of any recommendation depends on factors including the reader's circumstances, devices, software, configuration, service providers, applicable laws, and the capabilities of potential threats.
 
@@ -34,11 +34,11 @@ Some privacy and security measures may affect account access, device functionali
 
 Readers should assess the potential consequences of changes before implementing them and maintain appropriate backups where necessary.
 
-The advanced guidance in this guide is general in nature and may be insufficient for individuals facing targeted surveillance, stalking, coercion, serious threats, or other high-risk situations. Such individuals should consider obtaining advice from a suitably qualified security professional or relevant support organisation before making changes that could affect their safety.
+The advanced guidance in this guide is general in nature and may be insufficient for individuals facing targeted surveillance, stalking, coercion, serious threats, or other high-risk situations. Such individuals should consider obtaining advice from a suitably qualified security professional or relevant support organization before making changes that could affect their safety.
 
 ### 5. Third-Party Products and Services
 
-References to software, applications, devices, websites, organisations, or commercial services are provided for informational purposes only. Unless expressly stated otherwise, such references do not constitute an endorsement, recommendation, sponsorship, or guarantee by the author or publisher.
+References to software, applications, devices, websites, organizations, or commercial services are provided for informational purposes only. Unless expressly stated otherwise, such references do not constitute an endorsement, recommendation, sponsorship, or guarantee by the author or publisher.
 
 The author and publisher do not control third-party products or services and accept no responsibility for their availability, security, privacy practices, accuracy, or performance.
 
