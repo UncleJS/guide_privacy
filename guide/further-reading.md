@@ -45,7 +45,7 @@ If you live outside the United States, look for the equivalent national or regio
 
 ## About these sources
 
-This guide summarizes ideas in its own words. For a decision that matters, read the original source and check its date.
+This guide summarizes ideas in its own words. For a decision that matters, read the original source and check its date. Listing a source here is not an endorsement; see the [Disclaimer and Limitation of Liability](disclaimer.md).
 
 ---
 

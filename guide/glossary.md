@@ -2,6 +2,8 @@
 
 Previous: [If compromised](23-if-compromised.md) | [Home](../README.md) | Next: [Further reading](further-reading.md)
 
+See also the [Disclaimer and Limitation of Liability](disclaimer.md).
+
 **Alias.** A secondary email address that forwards to your main inbox, used to avoid sharing your real address. See [chapter 04](04-email.md).
 
 **Anonymity.** The inability of others to link an action to your real identity. Distinct from privacy and security. See [chapter 01](01-privacy-security-anonymity.md).

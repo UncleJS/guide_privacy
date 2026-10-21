@@ -6,6 +6,8 @@ Previous: [Travel and public space](22-travel-and-public-space.md) | [Home](../R
 
 People who think that more than a single account has been compromised: that a device may have spyware, that someone has persistent access to their accounts or location, or that they are being targeted. For a single hacked account, start with [chapter 16](16-account-takeover.md).
 
+This chapter is general guidance and not a substitute for professional help; see the [disclaimer](disclaimer.md).
+
 Your safety comes first. If the person who may be watching you could react with violence or retaliation, do not make changes that alert them before you have a safety plan and support.
 
 ## Everyday takeover or targeted intrusion?

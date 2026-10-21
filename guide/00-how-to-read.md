@@ -2,6 +2,8 @@
 
 [Home](../README.md) | Next: [Privacy, security, and anonymity](01-privacy-security-anonymity.md)
 
+> **Read the [Disclaimer and Limitation of Liability](disclaimer.md) before using this guide.** It is general information, not legal or professional security advice, and it cannot guarantee privacy or security.
+
 ## Who this is for
 
 Anyone who wants to leak less about themselves online. You do not need technical training. The steps are ordered so the first ones give the largest benefit for the least effort.
@@ -14,7 +16,7 @@ Anyone who wants to leak less about themselves online. You do not need technical
 ## What this guide will not do
 
 - It will not make you anonymous. Anonymity is a separate, harder goal ([chapter 01](01-privacy-security-anonymity.md)).
-- It will not replace legal advice. Rules on searches, device access, encryption, and data retention vary by country and change over time.
+- It will not replace legal advice or professional help. See the [disclaimer](disclaimer.md). Rules on searches, device access, encryption, and data retention vary by country and change over time.
 - It will not rank every product. Product lists go stale; the guide names a default where one is well established and explains how to evaluate alternatives.
 - It does not include methods for accessing other people's accounts or devices, tracking people, or evading a lawful investigation.
 

@@ -6,7 +6,7 @@ Previous: [Compartments](18-compartments.md) | [Home](../README.md) | Next: [Met
 
 People who may have a phone or laptop searched or taken by an authority, an employer, a border officer, or someone with physical access. This includes travelers, protesters, journalists, and anyone who may be stopped at a checkpoint.
 
-This chapter explains how device protection works so that you can make informed decisions. It does not advise anyone to hide evidence, destroy data, or obstruct a lawful search. Destroying or concealing data once an investigation is foreseeable can be a crime. Laws differ widely: whether you can be compelled to unlock a device, give a passcode, or use a fingerprint depends on your country and sometimes your status. Speak to a lawyer familiar with local law, or an organization that supports people in your situation, before you travel or take part in a risky event.
+This chapter explains how device protection works so that you can make informed decisions. It does not advise anyone to hide evidence, destroy data, or obstruct a lawful search. Destroying or concealing data once an investigation is foreseeable can be a crime. Laws differ widely: whether you can be compelled to unlock a device, give a passcode, or use a fingerprint depends on your country and sometimes your status. This chapter is not legal advice (see the [disclaimer](disclaimer.md)). Speak to a lawyer familiar with local law, or an organization that supports people in your situation, before you travel or take part in a risky event.
 
 ## What leaks
 

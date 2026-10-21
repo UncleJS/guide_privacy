@@ -6,6 +6,8 @@ Previous: [Account takeover](16-account-takeover.md) | [Home](../README.md) | Ne
 
 Chapters 17 to 23 are for people who face a specific adversary. They assume that you have completed the checklists in chapters 03 to 16. Without that baseline, the advanced steps protect little.
 
+> **Important:** the guidance in Part 2 is general and may be insufficient for targeted surveillance, stalking, coercion, or other serious threats. Some changes can attract attention or increase risk. Get advice from a qualified security professional or support organisation before making changes that could affect your safety. See the [Disclaimer and Limitation of Liability](disclaimer.md).
+
 ## Who this is for
 
 People who believe or know that a particular person or organization wants information about them: an abusive or controlling partner or ex-partner, an employer, a litigant, a coordinated harasser, or a government. Journalists, human rights defenders, lawyers, activists, and people leaving abusive situations are common examples.

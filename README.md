@@ -1,5 +1,11 @@
 # Online Privacy Guide
 
+> ## IMPORTANT: Read the [Disclaimer and Limitation of Liability](guide/disclaimer.md) first
+>
+> This guide is general information only. It is not legal or professional security advice, it cannot guarantee privacy, anonymity, or security, and you are responsible for how you use it. If you face stalking, coercion, targeted surveillance, or other serious threats, get qualified help before changing anything that could affect your safety.
+>
+> **[Read the full disclaimer](guide/disclaimer.md)**
+
 A practical, plain-English guide to protecting your privacy online. The first part covers everyday habits that help almost everyone. The second part covers higher-risk situations and assumes you have the everyday baseline in place.
 
 *Last reviewed: 2026-10-21.* Apps, settings menus, and laws change. Recheck any specific setting against the vendor's current documentation (see [further reading](guide/further-reading.md)).
@@ -9,6 +15,7 @@ A practical, plain-English guide to protecting your privacy online. The first pa
 - Defensive privacy only: reducing what companies, criminals, and other people can learn about you.
 - Not legal advice. Laws on encryption, searches, and data access differ by country.
 - No tool in this guide makes you anonymous or safe on its own. Each chapter states what a step protects and what it leaves exposed.
+- See the [Disclaimer and Limitation of Liability](guide/disclaimer.md) for the full terms of use.
 
 ## How the chapters are laid out
 
@@ -16,9 +23,10 @@ Each chapter follows the same shape: who it is for, what leaks, concrete steps, 
 
 ## Start here
 
-1. [How to read this guide](guide/00-how-to-read.md)
-2. [Privacy, security, and anonymity](guide/01-privacy-security-anonymity.md)
-3. [Threat models](guide/02-threat-models.md)
+1. **[Disclaimer and Limitation of Liability](guide/disclaimer.md)**
+2. [How to read this guide](guide/00-how-to-read.md)
+3. [Privacy, security, and anonymity](guide/01-privacy-security-anonymity.md)
+4. [Threat models](guide/02-threat-models.md)
 
 Pick your threat level (0 to 6) in chapter 2 before choosing tools. Most people need chapters 3 to 16 and nothing more. Chapter 2 also summarizes what a well-secured computer looks like at each level.
 
@@ -60,6 +68,7 @@ For people facing a specific adversary, such as an abusive partner with access t
 
 ## Back matter
 
+- **[Disclaimer and Limitation of Liability](guide/disclaimer.md)**
 - [Glossary](guide/glossary.md)
 - [Further reading](guide/further-reading.md)
 
@@ -67,9 +76,10 @@ For people facing a specific adversary, such as an abusive partner with access t
 
 ```mermaid
 flowchart TD
-  startNode[How to read] --> concepts[Privacy security anonymity]
+  disclaimer[Disclaimer] --> startNode[How to read]
+  startNode --> concepts[Privacy security anonymity]
   concepts --> threat[Threat models]
   threat --> everyday[Everyday chapters 03-16]
   everyday --> higher[Higher-risk chapters 17-23]
-  higher --> back[Glossary and further reading]
+  higher --> back[Disclaimer glossary and further reading]
 ```
